@@ -4533,13 +4533,14 @@ header .nav-container .nav-details .web p {
     gap: 40px;
 }
 
-.Law-details1 .law-details-slider1 .slider1{
+.Law-details1 .law-details-slider1 a{
     display: flex;
     align-items: end;
     justify-content: right;
     flex-direction: column;
     width: 40%;
     gap: 20px;
+    text-decoration: none;
     background-color: #F1F6FD;
     padding: 32px;
     border: 3px dashed #131c5660;
@@ -4839,4 +4840,295 @@ header .nav-container .nav-details .web p {
 
 .form-details4 .form-request .form-uplod button i {
     font-size: 18px;
+}
+
+/* -------------------------------page6---------------------------- */
+/* -------------------------section2------------------------- */
+
+.Law-details5{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 60px;
+    margin-top: -20%;
+}
+
+.Law-details5 .law-details-slider-data{
+    width: 60%;
+    display: flex;
+    align-items: end;
+    justify-content: right;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.Law-details5 .law-details-slider-data h2{
+    text-align: center;
+    font-size: 40px;
+    color: #131c56;
+}
+
+.Law-details5 .law-details-slider-data img{
+    width: 100%;
+}
+
+.Law-details5 .law-details-slider-data .law-para{
+    display: flex;
+    align-items: end;
+    justify-content: right;
+    gap: 40px;
+}
+
+.Law-details5 .law-details-slider-data .law-para .profile{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.Law-details5 .law-details-slider-data .law-para .profile i{
+    color: #B0852D;
+    font-size: 26px;
+}
+
+.Law-details5 .law-details-slider-data .law-para .profile p{
+    font-size: 26px;
+    color: #131c56;
+    font-weight: bold;
+}
+
+.Law-details5 .law-details-slider-data .law-para .Time{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.Law-details5 .law-details-slider-data .law-para .Time i{
+    color: #B0852D;
+    font-size: 26px;
+}
+
+.Law-details5 .law-details-slider-data .law-para .Time p{
+    font-size: 26px;
+    color: #131c56;
+    font-weight: bold;
+}
+
+.Law-details5 .law-details-slider-data p{
+    font-size: 20px;
+    font-weight: 500;
+    text-align: right;
+    color: #131c56;
+}
+
+.Law-details5 .law-social-icon{
+    display: flex;
+    align-items: start;
+    justify-content: left;
+    flex-direction: column;
+    width: 100%;
+}
+
+.Law-details5 .law-social-icon .social-icon{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 4px;
+    width: 100%;
+}
+
+.Law-details5 .law-social-icon .social-icon img{
+    width: 80%;
+}
+
+.Law-details5 .law-social-icon p{
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-left: 16%;
+    margin-bottom: 12px;
+}
+
+.Law-details5 .law-details-slider2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 85%;
+    gap: 40px;
+    margin-top: 60px;
+}
+
+.Law-details5 .law-details-slider2 .slider1{
+    display: flex;
+    align-items: end;
+    justify-content: right;
+    flex-direction: column;
+    width: 40%;
+    gap: 20px;
+    text-decoration: none;
+    background-color: #e0eaf7;
+    padding: 32px;
+    border: 3px dashed #131c5660;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 0.2s ease-in;
+}
+
+.Law-details5 .law-details-slider2 .slider1:hover{
+    box-shadow: 2px 2px 8px #1B2C62;
+    background-color: #ebeff5;
+}
+
+.Law-details5 .law-details-slider2 .slider1 h2{
+    font-size: 21px;
+    text-align: right;
+    font-weight: bold;
+    color: #131c56;
+}
+
+.Law-details5 .law-details-slider2 .slider1 p{
+    text-align: right;
+    font-size: 18px;
+    font-weight: 500;
+    color: #131c56;
+}
+
+.Law-details5 .law-details-slider2 .slider1 img{
+    width: 100%;
+}
+
+.Law-details5 .law-details-slider2 .slider1 button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    padding: 12px;
+    border: none;
+    outline: none;
+    background: transparent;
+    color: #131c56;
+    cursor: pointer;
+    transition: all 0.3s ease-in;
+}
+
+
+/* ---------------------------------------page6--------------------- */
+
+.todo-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: -16%;
+}
+
+.todo-section .todo2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    flex-direction: column;
+    margin-left: 6%;
+}
+
+.todo-section .todo2 .todo2-para{
+    display: flex;
+    align-items: end;
+    justify-content: right;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.todo-section .todo2 .todo2-para h4{
+    font-size: 20px;
+    color: #B0852D;
+}
+
+.todo-section .todo2 .todo2-para h2{
+    font-size: 40px;
+    color: #131c56;
+}
+
+.todo-section .todo2 .todo2-para p{
+    text-align: right;
+    color: #131c56;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 36px;
+}
+
+.todo-section .todo2 img{
+    width: 60%;
+}
+
+.todo-section .todo-1{
+    display: flex;
+    align-items: end;
+    justify-content: right;
+    flex-direction: column;
+    margin-right: 8%;
+    width: 50%;
+    gap: 20px;
+}
+
+.todo-section .todo-1 .point1{
+    display: flex;
+    align-items: end;
+    justify-content: right;
+    flex-direction: column;
+    gap: 16px;
+    cursor: pointer;
+}
+
+.todo-section .todo-1 .point1 .icon1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    background-color: #ebeff5;
+    padding: 8px 12px;
+    border-radius: 10px;
+}
+
+.todo-section .todo-1 .point1 .icon1 i{
+    background-color: #e49c0d;
+    padding: 4px 6px;
+    font-size: 26px;
+    border-radius: 4px;
+    color: white;
+}
+
+.todo-section .todo-1 .point1 .icon1 p{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.todo-section .todo-1 .point1 p{
+    font-size: 15px;
+    text-align: right;
+    font-weight: 500;
+}
+
+.todo-section .todo-1 .point2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    background-color: #ebeff5;
+    padding: 8px 12px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.todo-section .todo-1 .point2 i{
+    font-size: 36px;
+    color: #e49c0d;
+}
+
+.todo-section .todo-1 .point2 p{
+    font-size: 24px;
+    font-weight: bold;
 }
