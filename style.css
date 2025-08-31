@@ -189,6 +189,11 @@ header .nav-container .nav-details .web p {
     cursor: pointer;
 }
 
+.header .nav-buttons #toggle-btn li a{
+    text-decoration: none;
+    color: #131c56;
+}
+
 .header .nav-buttons #toggle-btn li:hover {
     background-color: #e49c0d;
     padding: 4px 41px;
@@ -5110,6 +5115,11 @@ header .nav-container .nav-details .web p {
     cursor: pointer;
 }
 
+.bg-section .nav-buttons #toggle-btn li a{
+    text-decoration: none;
+    color: #131c56;
+}
+
 .bg-section .nav-buttons #toggle-btn li:hover {
     background-color: #e49c0d;
     padding: 4px 41px;
@@ -5117,7 +5127,8 @@ header .nav-container .nav-details .web p {
     border-bottom-left-radius: 5px;
 }
 
-.bg-section .nav-buttons .right-btns #CLick-list span{
+.bg-section .nav-buttons .right-btns #CLick-list span,
+.bg-section7 .nav-buttons .right-btns #CLick-list span{
     color: #131c56;
     font-size: 20px;
     font-weight: bold;
