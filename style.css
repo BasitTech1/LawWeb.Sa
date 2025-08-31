@@ -6416,7 +6416,7 @@ header .nav-container .nav-details .web p {
 }
 
 .lawyer-details .lawer-img {
-    width: 30%;
+    width: 40%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -6446,8 +6446,8 @@ header .nav-container .nav-details .web p {
     align-items: end;
     justify-content: right;
     flex-direction: column;
-    gap: 62px;
-    margin-right: 5%;
+    gap: 47px;
+    margin-right: 11%;
 }
 
 .lawyer-details .lawer-details h2 {
@@ -6487,12 +6487,14 @@ header .nav-container .nav-details .web p {
 }
 
 .lawyer-details .lawer-details p {
-    font-size: 30px;
+    font-size: 25px;
+    text-align: right;
+    color: #131c56;
 }
 
 .lawer-btns {
     display: grid;
-    grid-template-columns: 4fr 4fr 3fr 3fr 4fr;
+    grid-template-columns: 5fr 4fr 4fr 5fr 5.5fr;
     gap: 20px;
     width: 100%;
 }
