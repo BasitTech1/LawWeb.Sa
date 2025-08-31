@@ -134,6 +134,7 @@ header .nav-container .nav-details .web p {
 .header .nav-buttons .right-btns li {
     list-style: none;
     padding: 20px 10px 20px 10px;
+    cursor: pointer;
 }
 
 .header .nav-buttons .right-btns li a {
@@ -160,7 +161,8 @@ header .nav-container .nav-details .web p {
     padding: 14px 20px;
     position: absolute;
     z-index: 100;
-    left: 59.5%;
+    left: 64%;
+    opacity: ;
 }
 
 .header .nav-buttons #toggle-btn li{
@@ -227,7 +229,6 @@ header .nav-container .nav-details .web p {
     justify-content: center;
     position: relative;
     width: 100%;
-    margin-top: -2%;
 }
 
 .hero-container .arrow-left {
@@ -331,6 +332,7 @@ header .nav-container .nav-details .web p {
 .hero-container .hero-content .content-details .hero_btns .btn-2 {
     background: linear-gradient(60deg, rgba(27, 44, 98, 1) 100%, rgba(49, 74, 155, 1)100%);
     color: white;
+    cursor: pointer;
 }
 
 .hero-container .hero-content .content-details .hero_btns .btn-2 i {
@@ -342,7 +344,7 @@ header .nav-container .nav-details .web p {
 .TwoSection {
     position: absolute;
     width: 100%;
-    margin-top: -8%;
+    margin-top: -4%;
     z-index: 100;
 }
 
@@ -362,7 +364,7 @@ header .nav-container .nav-details .web p {
     background: white;
     box-shadow: 2px 2px 4px rgba(27, 44, 98, 1);
     padding: 12px;
-    width: 12%;
+    width: 14%;
     cursor: pointer;
 }
 
