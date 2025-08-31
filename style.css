@@ -230,10 +230,6 @@ header .nav-container .nav-details .web p {
     background: linear-gradient(60deg, rgba(212, 175, 55, 1) 100%, rgba(176, 133, 45, 1)100%);
 }
 
-
-
-
-
 /*----------------------hero section-------------------------  */
 
 .hero-container {
@@ -241,8 +237,8 @@ header .nav-container .nav-details .web p {
     align-items: center;
     justify-content: center;
     position: relative;
-    z-index: 100;
     width: 100%;
+    margin-top: -9%;
 }
 
 .hero-container .arrow-left {
@@ -259,21 +255,24 @@ header .nav-container .nav-details .web p {
     background-color: #298dff8f;
     padding: 16px;
     font-size: 26px;
-    border-radius: 50%;
+    border-radius: 80%;
     cursor: pointer;
 }
 
 .hero-container .hero-content {
     display: flex;
-    align-items: end;
-    justify-content: start;
+    align-items: center;
+    justify-content: space-between;
     width: 100%;
 }
 
-.hero-container .hero-content img {
-    width: 96%;
-    margin-top: -9.4%;
-    margin-left: 10%;
+.hero-container .hero-content .hero-img{
+    width: 50%;
+    margin-left: 6%;
+}
+
+.hero-container .hero-content .hero-img img {
+    width: 80%;
 }
 
 .hero-container .hero-content .content-details {
@@ -283,11 +282,9 @@ header .nav-container .nav-details .web p {
     align-items: end;
     justify-content: right;
     flex-direction: column;
-    gap: 26px;
-    width: 100%;
-    position: absolute;
-    top: 10%;
-    left: -20%;
+    gap: 6px;
+    width: 50%;
+    margin-right: 8%;
 }
 
 .hero-container .hero-content .content-details h5 {
@@ -325,7 +322,7 @@ header .nav-container .nav-details .web p {
     align-items: end;
     justify-content: right;
     gap: 26px;
-    width: 50%;
+    width: 100%;
 }
 
 .hero-container .hero-content .content-details .hero_btns .btn-1,
