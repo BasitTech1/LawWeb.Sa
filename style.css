@@ -55,7 +55,7 @@ body {
     display: flex;
     align-items: center;
     justify-items: center;
-    gap: 18px;
+    gap: 20px;
 }
 
 .header .nav-container .nav-details .Gmail p {
@@ -66,7 +66,7 @@ body {
     display: flex;
     align-items: center;
     justify-items: center;
-    gap: 18px;
+    gap: 10px;
     cursor: pointer;
 }
 
@@ -81,7 +81,7 @@ header .nav-container .nav-details .web p {
 }
 
 .header .nav-container .Logo img {
-    width: 90%;
+    width: 80%;
     cursor: pointer;
 }
 
@@ -92,15 +92,12 @@ header .nav-container .nav-details .web p {
     justify-content: center;
     gap: 50px;
     margin-top: 150px;
+    position: relative;
 }
 
 .header .nav-buttons .left-btn {
     background-color: #f1f6fd6e;
     padding: 4px 10px 6px 16px;
-    width: 10%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 .header .nav-buttons .left-btn li {
@@ -125,50 +122,7 @@ header .nav-container .nav-details .web p {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 65%;
-    gap: 60px;
-}
-
-.header #toggle-btn {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    background-color: #f1f6fd9d;
-    padding: 5px 18px;
-    gap: 25px;
-    width: 10%;
-    margin-left: 32%;
-    cursor: pointer;
-    opacity: 0;
-    transition: all 0.3s ease-in;
-}
-
-.header #toggle-btn ul {
-    color: #131c56;
-    cursor: pointer;
-    text-align: center;
-}
-
-.header #toggle-btn li {
-    list-style: none;
-    font-size: 24px;
-    font-weight: bold;
-    margin-bottom: 12px;
-    transition: all 0.3s ease-in;
-}
-
-.header #toggle-btn li:hover {
-    background-color: #e49c0d;
-    padding: 6px 18px;
-    font-size: 20px;
-    font-weight: bold;
-}
-
-.header #toggle-btn li a {
-    text-decoration: none;
-    cursor: pointer;
-
+    gap: 30px;
 }
 
 .header .nav-buttons .right-btns li:hover {
@@ -194,6 +148,33 @@ header .nav-container .nav-details .web p {
     padding: 0px 16px 6px 10px;
 }
 
+.header .nav-buttons #toggle-btn{
+    width: 8%;
+    top: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 15px;
+    background-color: #ffffff5f;
+    padding: 14px 20px;
+    position: absolute;
+    z-index: 100;
+    left: 59.5%;
+}
+
+.header .nav-buttons #toggle-btn li{
+    list-style: none;
+    font-size: 18px;
+    font-weight: bold;
+    color: #131c56;
+    cursor: pointer;
+}
+
+.header .nav-buttons #toggle-btn li:hover{
+    background-color: #e49c0d;
+    padding: 12px 15px;
+}
 
 
 /* ---------------------------------background------------------ */
@@ -246,7 +227,7 @@ header .nav-container .nav-details .web p {
     justify-content: center;
     position: relative;
     width: 100%;
-    margin-top: -9%;
+    margin-top: -2%;
 }
 
 .hero-container .arrow-left {
