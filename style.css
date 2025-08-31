@@ -674,7 +674,7 @@ header .nav-container .nav-details .web p {
     align-items: center;
     justify-content: center;
     position: absolute;
-    top: 304%;
+    top: 310%;
     width: 100%;
     gap: 50px;
     padding: 80px;
@@ -824,7 +824,7 @@ header .nav-container .nav-details .web p {
     align-items: center;
     justify-content: center;
     position: absolute;
-    top: 340%;
+    top: 350%;
     padding: 80px;
     width: 100%;
 }
