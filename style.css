@@ -3704,7 +3704,7 @@ header .nav-container .nav-details .web p {
 
 .contact-data-section .contact-addresses .contact-call .Phone p {
     color: white;
-    font-size: 36px;
+    font-size: 34px;
     font-weight: bold;
 }
 
@@ -3724,7 +3724,7 @@ header .nav-container .nav-details .web p {
 
 .contact-data-section .contact-addresses .contact-call .Gamil p {
     color: white;
-    font-size: 36px;
+    font-size: 34px;
     font-weight: bold;
 }
 
@@ -3770,7 +3770,7 @@ header .nav-container .nav-details .web p {
 .form-details1 .form-img {
     position: absolute;
     top: 20%;
-    left: 6%;
+    left: 23%;
     background-color: white;
     padding: 30px;
     display: flex;
@@ -3779,7 +3779,7 @@ header .nav-container .nav-details .web p {
     flex-direction: column;
     border-radius: 30px;
     box-shadow: 2px 2px 8px #1A2562;
-    width: 80%;
+    width: 50%;
 }
 
 .form-details1 .form-img .form-top {
@@ -3793,7 +3793,7 @@ header .nav-container .nav-details .web p {
     outline: none;
     border: none;
     background-color: #F4F6FA;
-    padding: 20px 100px;
+    padding: 20px 80px;
     color: #252B63;
     text-align: right;
     border-radius: 60px;
