@@ -157,7 +157,7 @@ header .nav-container .nav-details .web p {
     position: absolute;
     top: 100%;
     left: 62%;
-    display: flex;
+    display: none;
     align-items: center;
     justify-content: center;
     flex-direction: column;
@@ -165,14 +165,14 @@ header .nav-container .nav-details .web p {
     background: rgba(255, 255, 255, 0.585);
     border-radius: 0 0 8px 8px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-    opacity: 1;
     transition: all 0.3s ease;
-    z-index: 100;
+    z-index: 1000;
     width: 150.1px;
+    overflow: hidden;
 }
 
-#toggle-btn.visible {
-    opacity: 1;
+.header .nav-buttons #toggle-btn.visible {
+    display: flex;
 }
 
 .header .nav-buttons #toggle-btn li {
