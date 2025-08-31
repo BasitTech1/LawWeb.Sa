@@ -144,6 +144,12 @@ header .nav-container .nav-details .web p {
     font-weight: bold;
 }
 
+.header .nav-buttons .right-btns #CLick-list span{
+    color: #131c56;
+    font-size: 20px;
+    font-weight: bold;
+}
+
 .header .nav-buttons .right-btns {
     background-color: #f1f6fd6e;
     padding: 0px 16px 6px 10px;
@@ -5069,6 +5075,54 @@ header .nav-container .nav-details .web p {
 
 
 /* ---------------------------------------page6--------------------- */
+
+.bg-section .nav-buttons #CLick-list {
+    position: relative;
+}
+
+.bg-section .nav-buttons #toggle-btn {
+    position: absolute;
+    top: 100%;
+    left: 62%;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    background: rgba(255, 255, 255, 0.585);
+    border-radius: 0 0 8px 8px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    z-index: 1000;
+    width: 150.1px;
+    overflow: hidden;
+}
+
+.bg-section .nav-buttons #toggle-btn.visible {
+    display: flex;
+}
+
+.bg-section .nav-buttons #toggle-btn li {
+    list-style: none;
+    font-size: 18px;
+    font-weight: bold;
+    color: #131c56;
+    cursor: pointer;
+}
+
+.bg-section .nav-buttons #toggle-btn li:hover {
+    background-color: #e49c0d;
+    padding: 4px 41px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.bg-section .nav-buttons .right-btns #CLick-list span{
+    color: #131c56;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
 
 .todo-section {
     display: flex;
