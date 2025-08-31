@@ -4526,6 +4526,13 @@ header .nav-container .nav-details .web p {
 
 .Map-slider .Map-bg {
     width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Map-slider .Map-bg img{
+    width: 100%;
 }
 
 .Map-slider .Map-details-img {
