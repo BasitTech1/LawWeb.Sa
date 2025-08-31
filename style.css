@@ -6412,7 +6412,7 @@ header .nav-container .nav-details .web p {
     justify-content: center;
     width: 100%;
     margin-top: -20%;
-    gap: 14%;
+    gap: 5%;
 }
 
 .lawyer-details .lawer-img {
@@ -6494,7 +6494,7 @@ header .nav-container .nav-details .web p {
 
 .lawer-btns {
     display: grid;
-    grid-template-columns: 5fr 4fr 4fr 5fr 5.5fr;
+    grid-template-columns: 5fr 4fr 4fr 5.5fr;
     gap: 20px;
     width: 100%;
 }
