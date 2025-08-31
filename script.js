@@ -1,6 +1,17 @@
-const toggleBtn = document.getElementById('toggle-btn')
-const CLickList = document.getElementById('CLick-list')
+const clickList = document.getElementById('CLick-list');
+const toggleBtn = document.getElementById('toggle-btn');
 
-CLickList.addEventListener('click', function(){
-    toggleBtn.style.opacity = 100
-})
+clickList.addEventListener('click', function (e) {
+    e.stopPropagation();
+    toggleBtn.classList.toggle('visible');
+});
+
+document.addEventListener('click', function (e) {
+    if (!clickList.contains(e.target) && !toggleBtn.contains(e.target)) {
+        toggleBtn.classList.remove('visible');
+    }
+});
+
+toggleBtn.addEventListener('click', function (e) {
+    e.stopPropagation();
+});

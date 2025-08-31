@@ -149,23 +149,33 @@ header .nav-container .nav-details .web p {
     padding: 0px 16px 6px 10px;
 }
 
-.header .nav-buttons #toggle-btn{
-    width: 8%;
+.header .nav-buttons #CLick-list {
+    position: relative;
+}
+
+.header .nav-buttons #toggle-btn {
+    position: absolute;
     top: 100%;
+    left: 60%;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    gap: 15px;
-    background-color: #ffffff5f;
-    padding: 14px 20px;
-    position: absolute;
+    gap: 20px;
+    background: rgba(255, 255, 255, 0.585);
+    border-radius: 0 0 8px 8px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    opacity: 1;
+    transition: all 0.3s ease;
     z-index: 100;
-    left: 63%;
-    opacity: ;
+    width: 150.1px;
 }
 
-.header .nav-buttons #toggle-btn li{
+#toggle-btn.visible {
+    opacity: 1;
+}
+
+.header .nav-buttons #toggle-btn li {
     list-style: none;
     font-size: 18px;
     font-weight: bold;
@@ -173,9 +183,11 @@ header .nav-container .nav-details .web p {
     cursor: pointer;
 }
 
-.header .nav-buttons #toggle-btn li:hover{
+.header .nav-buttons #toggle-btn li:hover {
     background-color: #e49c0d;
-    padding: 12px 15px;
+    padding: 4px 41px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
 }
 
 
@@ -257,7 +269,7 @@ header .nav-container .nav-details .web p {
     width: 100%;
 }
 
-.hero-container .hero-content .hero-img{
+.hero-container .hero-content .hero-img {
     width: 50%;
     margin-left: 6%;
 }
