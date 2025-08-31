@@ -1015,8 +1015,8 @@ header .nav-container .nav-details .web p {
     justify-content: center;
     flex-direction: column;
     position: absolute;
-    gap: 22px;
-    top: 455%;
+    gap: 10px;
+    top: 450%;
     width: 100%;
     text-align: center;
     width: 100%;
@@ -1026,9 +1026,7 @@ header .nav-container .nav-details .web p {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 4px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    gap: 9px;
     width: 100%;
 }
 
@@ -1102,7 +1100,8 @@ header .nav-container .nav-details .web p {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 60px;
+    padding: 65px;
+    margin-top: 4%;
 }
 
 .Service-box .service-slider .slider1 {
@@ -1211,6 +1210,7 @@ header .nav-container .nav-details .web p {
     cursor: pointer;
     width: 20%;
     margin-left: 40%;
+    margin-top: -4%;
 }
 
 .Service-box .slider-btn:hover {
@@ -1221,7 +1221,7 @@ header .nav-container .nav-details .web p {
 
 .Target {
     position: absolute;
-    top: 530%;
+    top: 540%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -1375,7 +1375,7 @@ header .nav-container .nav-details .web p {
 .institute {
     width: 100%;
     position: absolute;
-    top: 630%;
+    top: 660%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -1495,7 +1495,7 @@ header .nav-container .nav-details .web p {
 
 .form-details {
     position: absolute;
-    top: 700%;
+    top: 742%;
     width: 100%;
 }
 
@@ -1734,7 +1734,7 @@ header .nav-container .nav-details .web p {
 
 .experiece {
     position: absolute;
-    top: 780%;
+    top: 840%;
     display: flex;
     align-items: end;
     justify-content: right;
@@ -1860,7 +1860,7 @@ header .nav-container .nav-details .web p {
 
 .trainer {
     position: absolute;
-    top: 850%;
+    top: 937%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -2020,7 +2020,7 @@ header .nav-container .nav-details .web p {
 
 .hiring {
     position: absolute;
-    top: 940%;
+    top: 1036%;
     width: 100%;
     display: flex;
     align-items: center;
@@ -2231,7 +2231,7 @@ header .nav-container .nav-details .web p {
     justify-content: center;
     flex-direction: column;
     position: absolute;
-    top: 1020%;
+    top: 1144%;
     width: 100%;
     background-image: url(/images/contactImgBg.png);
     height: 60vh;
@@ -2341,7 +2341,7 @@ header .nav-container .nav-details .web p {
 
 .Brand {
     position: absolute;
-    top: 1080%;
+    top: 1212%;
     width: 100%;
     display: flex;
     align-items: center;
@@ -2423,7 +2423,7 @@ header .nav-container .nav-details .web p {
 
 .footer {
     position: absolute;
-    top: 1106%;
+    top: 1243%;
     width: 100%;
     display: flex;
     align-items: center;
