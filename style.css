@@ -4717,7 +4717,7 @@ header .nav-container .nav-details .web p {
     align-items: center;
     justify-content: center;
     width: 80%;
-    gap: 60px;
+    gap: 42px;
     margin-top: 66px;
 }
 
@@ -4726,10 +4726,10 @@ header .nav-container .nav-details .web p {
     align-items: end;
     justify-content: right;
     flex-direction: column;
-    width: 40%;
+    width: 37%;
     gap: 20px;
     background-color: #F1F6FD;
-    padding: 32px;
+    padding: 34px;
     border: 3px dashed #131c5660;
     border-radius: 20px;
     cursor: pointer;
@@ -4742,7 +4742,7 @@ header .nav-container .nav-details .web p {
 }
 
 .Law-details1 .law-details-slider2 .slider1 h2 {
-    font-size: 21px;
+    font-size: 18px;
     text-align: right;
     font-weight: bold;
     color: #131c56;
