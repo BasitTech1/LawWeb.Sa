@@ -4777,7 +4777,7 @@ header .nav-container .nav-details .web p {
 
 .form-details4 {
     position: absolute;
-    top: 66%;
+    top: 77%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -4788,8 +4788,8 @@ header .nav-container .nav-details .web p {
 
 .form-details4 .form-img {
     position: absolute;
-    top: 20%;
-    left: 6%;
+    top: -13%;
+    left: 9%;
     background-color: white;
     padding: 30px;
     display: flex;
