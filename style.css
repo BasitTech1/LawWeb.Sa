@@ -2457,7 +2457,6 @@ header .nav-container .nav-details .web p {
 .footer .footer-details li {
     list-style: none;
     margin-bottom: 8px;
-    margin-top: 4px;
     cursor: pointer;
 }
 
@@ -2536,14 +2535,14 @@ header .nav-container .nav-details .web p {
 
 .footer .footer-copyright {
     position: absolute;
-    top: 90%;
+    top: 85%;
     display: flex;
     align-items: center;
     justify-content: space-between;
     width: 100%;
     padding: 1% 12%;
     border-top: 2px solid #b0842d8a;
-    margin-top: 12px;
+    margin-top: 10px;
     color: white;
 }
 
@@ -3705,13 +3704,14 @@ header .nav-container .nav-details .web p {
 
 .contact-data-section .contact-addresses .contact-call .Phone p {
     color: white;
-    font-size: 16px;
+    font-size: 36px;
     font-weight: bold;
 }
 
 .contact-data-section .contact-addresses .contact-call .Phone i {
     color: #e49c0d;
     text-shadow: 1px 2px #070707;
+    font-size: 36px;
 }
 
 
@@ -3724,13 +3724,14 @@ header .nav-container .nav-details .web p {
 
 .contact-data-section .contact-addresses .contact-call .Gamil p {
     color: white;
-    font-size: 16px;
+    font-size: 36px;
     font-weight: bold;
 }
 
 .contact-data-section .contact-addresses .contact-call .Gamil i {
     color: #e49c0d;
     text-shadow: 1px 2px #070707;
+    font-size: 36px;
 }
 
 .contact-data-section .contact-addresses .location {
@@ -3743,13 +3744,14 @@ header .nav-container .nav-details .web p {
 
 .contact-data-section .contact-addresses .location p {
     color: white;
-    font-size: 16px;
+    font-size: 24px;
     font-weight: bold;
 }
 
 .contact-data-section .contact-addresses .location i {
     color: #e49c0d;
     text-shadow: 1px 2px #070707;
+    font-size: 24px;
 }
 
 /* ---------------------------form------------------------ */
@@ -3891,7 +3893,7 @@ header .nav-container .nav-details .web p {
     font-size: 18px;
 }
 
-/* ----------------------------------footer-------------------- */
+/* ----------------------------------footer2-------------------- */
 
 .footer2 {
     width: 100%;
@@ -3901,6 +3903,7 @@ header .nav-container .nav-details .web p {
     flex-direction: column;
     gap: 20px;
     position: relative;
+    margin-top: -10%;
 }
 
 .footer2 .footer-img {
@@ -3921,12 +3924,13 @@ header .nav-container .nav-details .web p {
     width: 80%;
     position: absolute;
     color: white;
+    z-index: 1000;
 }
 
 .footer2 .footer-details li {
     list-style: none;
     margin-bottom: 8px;
-    margin-top: 4px;
+    cursor: pointer;
 }
 
 .footer2 .footer-details li a {
@@ -3941,6 +3945,7 @@ header .nav-container .nav-details .web p {
 
 .footer2 .footer-details .footer-col2 {
     width: 30%;
+    cursor: pointer;
 }
 
 .footer2 .footer-details .footer-col1 {
@@ -4772,12 +4777,13 @@ header .nav-container .nav-details .web p {
 
 .form-details4 {
     position: absolute;
-    top: 70%;
+    top: 66%;
     display: flex;
     align-items: center;
     justify-content: center;
     z-index: 10;
-    width: 100%;
+    width: 80%;
+    left: 14%;
 }
 
 .form-details4 .form-img {
@@ -5100,7 +5106,6 @@ header .nav-container .nav-details .web p {
     transition: all 0.3s ease;
     z-index: 1000;
     width: 150.1px;
-    overflow: hidden;
 }
 
 .bg-section .nav-buttons #toggle-btn.visible {
@@ -5197,58 +5202,70 @@ header .nav-container .nav-details .web p {
     align-items: end;
     justify-content: right;
     flex-direction: column;
-    gap: 16px;
+    gap: 15px;
     cursor: pointer;
+    background-color: #ebeff5;
+    padding: 8px 12px;
+    border-radius: 12px;
+    position: relative;
 }
 
 .todo-section .todo-1 .point1 .icon1 {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 8px;
-    background-color: #ebeff5;
-    padding: 8px 12px;
-    border-radius: 10px;
-}
-
-.todo-section .todo-1 .point1 .icon1 i {
-    background-color: #e49c0d;
-    padding: 4px 6px;
-    font-size: 26px;
-    border-radius: 4px;
-    color: white;
-}
-
-.todo-section .todo-1 .point1 .icon1 p {
-    font-size: 24px;
-    font-weight: bold;
-}
-
-.todo-section .todo-1 .point1 p {
-    font-size: 15px;
-    text-align: right;
-    font-weight: 500;
-}
-
-.todo-section .todo-1 .point2 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 6px;
-    background-color: #ebeff5;
-    padding: 8px 12px;
+    gap: 14px;
     border-radius: 10px;
     cursor: pointer;
+    transition: all 0.3s ease-in;
 }
 
-.todo-section .todo-1 .point2 i {
-    font-size: 36px;
+.todo-section .todo-1 .point1 .icon1 #sum1,
+.todo-section .todo-1 .point1 .icon1 #sum2,
+.todo-section .todo-1 .point1 .icon1 #sum3,
+.todo-section .todo-1 .point1 .icon1 #sum4,
+.todo-section .todo-1 .point1 .icon1 #sum5 {
+    padding: 2px 3px;
+    font-size: 20px;
+    border-radius: 2px;
     color: #e49c0d;
+    transition: all 0.3s ease-in;
 }
 
-.todo-section .todo-1 .point2 p {
-    font-size: 24px;
+.todo-section .todo-1 .point1 .icon1 #subtract1,
+.todo-section .todo-1 .point1 .icon1 #subtract2,
+.todo-section .todo-1 .point1 .icon1 #subtract3,
+.todo-section .todo-1 .point1 .icon1 #subtract4,
+.todo-section .todo-1 .point1 .icon1 #subtract5{
+    background-color: #e49c0d;
+    padding: 2px 3px;
+    font-size: 14px;
+    color: white;
+    border-radius: 2px;
+    display: none;
+    transition: all 0.3s ease-in;
+    margin-right: 3px;
+} 
+
+.todo-section .todo-1 .point1 .icon1 p {
+    font-size: 20px;
     font-weight: bold;
+    color: #131c56;
+    width: 100%;
+}
+
+.todo-section .todo-1 .point1 #data-para1,
+.todo-section .todo-1 .point1 #data-para2,
+.todo-section .todo-1 .point1 #data-para3,
+.todo-section .todo-1 .point1 #data-para4,
+.todo-section .todo-1 .point1 #data-para5 {
+    font-size: 16x;
+    text-align: right;
+    font-weight: 600;
+    color: #203a8e;
+    margin-right: 4%;
+    display: none;
+    transition: all 0.3s ease-in;
 }
 
 /* -------------------------------------page7----------------------- */
