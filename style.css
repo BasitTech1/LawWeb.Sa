@@ -144,7 +144,7 @@ header .nav-container .nav-details .web p {
     font-weight: bold;
 }
 
-.header .nav-buttons .right-btns #CLick-list span{
+.header .nav-buttons .right-btns #CLick-list span {
     color: #131c56;
     font-size: 20px;
     font-weight: bold;
@@ -189,7 +189,7 @@ header .nav-container .nav-details .web p {
     cursor: pointer;
 }
 
-.header .nav-buttons #toggle-btn li a{
+.header .nav-buttons #toggle-btn li a {
     text-decoration: none;
     color: #131c56;
 }
@@ -2744,7 +2744,7 @@ header .nav-container .nav-details .web p {
     align-items: center;
     justify-content: center;
     width: 100%;
-    margin-top: -20%;
+    margin-top: -5%;
     padding: 0px 90px;
 }
 
@@ -2764,6 +2764,19 @@ header .nav-container .nav-details .web p {
     justify-content: center;
     flex-direction: column;
     gap: 2px;
+    box-shadow: 2px 4px 8px #d6e2fa;
+    cursor: pointer;
+    transition: all 0.3s ease-in;
+}
+
+.Section-Two .SectionTwo-icons .SectionTwo-1:hover,
+.Section-Two .SectionTwo-icons .SectionTwo-2:hover,
+.Section-Two .SectionTwo-icons .SectionTwo-3:hover{
+    background-color: #F1F6FD;
+}
+
+.Section-Two .SectionTwo-icons .SectionTwo-4:hover{
+    background-color: #203a8e;
 }
 
 .Section-Two .SectionTwo-icons .SectionTwo-1 img {
@@ -2792,6 +2805,9 @@ header .nav-container .nav-details .web p {
     justify-content: center;
     flex-direction: column;
     gap: 6px;
+    box-shadow: 2px 4px 8px #c4cfe6;
+    cursor: pointer;
+    transition: all 0.3s ease-in;
 }
 
 .Section-Two .SectionTwo-icons .SectionTwo-2 img {
@@ -2821,6 +2837,9 @@ header .nav-container .nav-details .web p {
     justify-content: center;
     flex-direction: column;
     gap: 6px;
+    box-shadow: 2px 4px 8px #c4cfe6;
+    cursor: pointer;
+    transition: all 0.3s ease-in;
 }
 
 .Section-Two .SectionTwo-icons .SectionTwo-3 img {
@@ -2850,6 +2869,9 @@ header .nav-container .nav-details .web p {
     justify-content: center;
     flex-direction: column;
     gap: 6px;
+    box-shadow: 2px 4px 8px #c4cfe6;
+    cursor: pointer;
+    transition: all 0.3s ease-in;
 }
 
 .Section-Two .SectionTwo-icons .SectionTwo-4 img {
@@ -3009,7 +3031,7 @@ header .nav-container .nav-details .web p {
     background-color: #1A2562;
     position: absolute;
     top: 9%;
-    left: 6%;
+    left: 16%;
     z-index: -10;
     border-radius: 2px;
 }
@@ -4431,7 +4453,7 @@ header .nav-container .nav-details .web p {
     display: flex;
     align-items: start;
     justify-content: left;
-    gap: 196px;
+    gap: 20px;
     width: 40%;
 }
 
@@ -4531,7 +4553,7 @@ header .nav-container .nav-details .web p {
     justify-content: center;
 }
 
-.Map-slider .Map-bg img{
+.Map-slider .Map-bg img {
     width: 100%;
 }
 
@@ -5127,7 +5149,7 @@ header .nav-container .nav-details .web p {
     cursor: pointer;
 }
 
-.bg-section .nav-buttons #toggle-btn li a{
+.bg-section .nav-buttons #toggle-btn li a {
     text-decoration: none;
     color: #131c56;
 }
@@ -5140,7 +5162,7 @@ header .nav-container .nav-details .web p {
 }
 
 .bg-section .nav-buttons .right-btns #CLick-list span,
-.bg-section7 .nav-buttons .right-btns #CLick-list span{
+.bg-section7 .nav-buttons .right-btns #CLick-list span {
     color: #131c56;
     font-size: 20px;
     font-weight: bold;
@@ -5243,7 +5265,7 @@ header .nav-container .nav-details .web p {
 .todo-section .todo-1 .point1 .icon1 #subtract2,
 .todo-section .todo-1 .point1 .icon1 #subtract3,
 .todo-section .todo-1 .point1 .icon1 #subtract4,
-.todo-section .todo-1 .point1 .icon1 #subtract5{
+.todo-section .todo-1 .point1 .icon1 #subtract5 {
     background-color: #e49c0d;
     padding: 2px 3px;
     font-size: 14px;
@@ -5252,7 +5274,7 @@ header .nav-container .nav-details .web p {
     display: none;
     transition: all 0.3s ease-in;
     margin-right: 3px;
-} 
+}
 
 .todo-section .todo-1 .point1 .icon1 p {
     font-size: 20px;
