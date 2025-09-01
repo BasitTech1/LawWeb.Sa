@@ -2995,7 +2995,17 @@ header .nav-container .nav-details .web p {
     color: #1A2562;
 }
 
-.Section-Three .section-data button {
+.Section-Three .section-data .data-btn1,
+.Section-Three .section-data .data-btn2,
+.Section-Three .section-data .data-btn3,
+.Section-Three .section-data .data-btn4{
+    width: 100%;
+}
+
+.Section-Three .section-data .data-btn1 .cart-btn1,
+.Section-Three .section-data .data-btn2 .cart-btn2,
+.Section-Three .section-data .data-btn3 .cart-btn3,
+.Section-Three .section-data .data-btn4 .cart-btn4{
     width: 100%;
     outline: none;
     border: none;
@@ -3006,13 +3016,64 @@ header .nav-container .nav-details .web p {
     font-weight: bold;
     color: #1A2562;
     cursor: pointer;
+    background-color: #ebeff5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.Section-Three .section-data p {
-    text-align: right;
+.Section-Three .section-data .data-btn1 .cart-btn1 i,
+.Section-Three .section-data .data-btn2 .cart-btn2 i,
+.Section-Three .section-data .data-btn3 .cart-btn3 i,
+.Section-Three .section-data .data-btn4 .cart-btn4 i{
+    color: #131c56;
+}
+
+.Section-Three .section-data .data-btn1 .cart-btn1 button,
+.Section-Three .section-data .data-btn2 .cart-btn2 button,
+.Section-Three .section-data .data-btn3 .cart-btn3 button,
+.Section-Three .section-data .data-btn4 .cart-btn4 button{
+    border: none;
+    outline: none;
+    font-size: 25px;
+    font-weight: 600;
+    color: #131c56;
+    margin-left: 66%;
+}
+
+.Section-Three .section-data .data-btn1 .cart-btn1 #cart-down1,
+.Section-Three .section-data .data-btn2 .cart-btn2 #cart-down2,
+.Section-Three .section-data .data-btn3 .cart-btn3 #cart-down3,
+.Section-Three .section-data .data-btn4 .cart-btn4 #cart-down4{
+    display: flex;
+}
+
+.Section-Three .section-data .data-btn1 .cart-btn1 #cart-up1,
+.Section-Three .section-data .data-btn2 .cart-btn2 #cart-up2,
+.Section-Three .section-data .data-btn3 .cart-btn3 #cart-up3,
+.Section-Three .section-data .data-btn4 .cart-btn4 #cart-up4{
+    margin-left: -5%;
+    display: none;
+}
+
+.Section-Three .section-data .data-btn1 #cart-para1{
     font-size: 16px;
-    font-weight: 800;
-    color: #1A2562;
+    font-weight: 600;
+    text-align: right;
+    color: #131c56;
+    display: flex;
+    transition: all 0.3s ease-in;
+}
+
+.Section-Three .section-data .data-btn2 #cart-para2,
+.Section-Three .section-data .data-btn3 #cart-para3,
+.Section-Three .section-data .data-btn4 #cart-para4{
+    display: none;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: right;
+    color: #131c56;
+    transition: all 0.3s ease-in;
 }
 
 .Section-Three .section-data-img {

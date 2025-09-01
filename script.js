@@ -93,3 +93,7 @@ subtract5.addEventListener('click', function(){
     subtract5.style.display = 'none'
     dataPara5.style.display = 'none'
 })
+
+
+// -----------------------------من نحن---------------------
+
