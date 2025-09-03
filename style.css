@@ -259,6 +259,8 @@ header .nav-container .nav-details .web p {
     position: relative;
     width: 100%;
     margin-top: 5px;
+    transition: all 2.8s ease-out;
+    transform: skewY(0deg) translateY(50px);
 }
 
 .hero-container .arrow-left {
@@ -1118,6 +1120,7 @@ header .nav-container .nav-details .web p {
     width: 30%;
     text-align: center;
     border: 4px dashed #1a256251;
+    height: 56vh;
 }
 
 .Service-box .service-slider .slider1 h2 {
@@ -1126,8 +1129,8 @@ header .nav-container .nav-details .web p {
 }
 
 .Service-box .service-slider .slider1 p {
-    font-size: 24px;
-    line-height: 46px;
+    font-size: 27px;
+    line-height: 55px;
 }
 
 .Service-box .service-slider .slider2 {
@@ -1183,8 +1186,9 @@ header .nav-container .nav-details .web p {
     left: 75%;
     color: white;
     border: 2px solid white;
-    padding: 10px 16px;
+    padding: 9px 20px;
     border-radius: 50%;
+    font-size: 14px;
     cursor: pointer;
 }
 
@@ -1194,6 +1198,7 @@ header .nav-container .nav-details .web p {
     width: 30%;
     text-align: center;
     border: 4px dashed #1a256251;
+    height: 66vh;
 }
 
 .Service-box .service-slider .slider3 h2 {
@@ -1202,8 +1207,8 @@ header .nav-container .nav-details .web p {
 }
 
 .Service-box .service-slider .slider3 p {
-    font-size: 24px;
-    line-height: 46px;
+    font-size: 27px;
+    line-height: 50px;
 }
 
 .Service-box .service-slider .slider4 {
