@@ -1121,6 +1121,14 @@ header .nav-container .nav-details .web p {
     text-align: center;
     border: 4px dashed #1a256251;
     height: 66vh;
+    cursor: pointer;
+    transition: all 0.3s ease-in;
+}
+
+.Service-box .service-slider .slider1:hover,
+.Service-box .service-slider .slider3:hover{
+    transform: scale(1.1);
+    box-shadow: 2px 2px 8px #131c56;
 }
 
 .Service-box .service-slider .slider1 h2 {
@@ -1137,6 +1145,12 @@ header .nav-container .nav-details .web p {
     width: 30%;
     text-align: center;
     position: relative;
+    cursor: pointer;
+    transition: all 0.3s ease-in;
+}
+
+.Service-box .service-slider .slider2:hover{
+    transform: scale(1.1);
 }
 
 .Service-box .service-slider .slider2 img {
@@ -1204,6 +1218,8 @@ header .nav-container .nav-details .web p {
     text-align: center;
     border: 4px dashed #1a256251;
     height: 66vh;
+    cursor: pointer;
+    transition: all 0.3s ease-in;
 }
 
 .Service-box .service-slider .slider3 h2 {
