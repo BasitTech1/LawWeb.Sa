@@ -186,16 +186,13 @@ header .nav-container .nav-details .web p {
     overflow: hidden;
 }
 
-.header .nav-buttons #toggle-btn.visible {
-    display: flex;
-}
-
 .header .nav-buttons #toggle-btn li {
     list-style: none;
     font-size: 18px;
     font-weight: bold;
     color: #131c56;
     cursor: pointer;
+    padding: 4px 41px;
 }
 
 .header .nav-buttons #toggle-btn li a {
