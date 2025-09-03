@@ -52,3 +52,52 @@ const swiper = new Swiper('.swiper', {
 });
 
 
+document.addEventListener('DOMContentLoaded', function () {
+    const menuIcon = document.querySelector('.menu-icon');
+    const mobileMenu = document.querySelector('.mobile-menu');
+    const menuBtns = document.querySelector('.menu-btns');
+    const overlay = document.getElementById('overlay');
+    const menuItems = document.querySelectorAll('.menu-btns li');
+
+    // Toggle menu function
+    function toggleMenu() {
+        mobileMenu.classList.toggle('active');
+        overlay.style.display = mobileMenu.classList.contains('open') ? 'block' : 'none';
+
+        // Prevent body scrolling when menu is open
+        if (mobileMenu.classList.contains('active')) {
+            document.body.style.overflow = 'hidden';
+        } else {
+            document.body.style.overflow = 'auto';
+        }
+    }
+
+    // Add click event to menu icon
+    menuIcon.addEventListener('click', toggleMenu);
+
+    // Close menu when clicking on overlay
+    overlay.addEventListener('click', toggleMenu);
+
+    // Add click event to menu items
+    menuItems.forEach(item => {
+        item.addEventListener('click', function () {
+            // Remove active class from all items
+            menuItems.forEach(i => i.classList.remove('Active-MB'));
+
+            // Add active class to clicked item
+            this.classList.add('Active-MB');
+
+            // Close menu after selection (optional)
+            setTimeout(toggleMenu, 300);
+        });
+    });
+
+    // Close menu when window is resized to desktop size
+    window.addEventListener('resize', function () {
+        if (window.innerWidth > 768) {
+            mobileMenu.classList.remove('active');
+            overlay.style.display = 'none';
+            document.body.style.overflow = 'auto';
+        }
+    });
+});
