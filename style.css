@@ -1120,7 +1120,7 @@ header .nav-container .nav-details .web p {
     width: 30%;
     text-align: center;
     border: 4px dashed #1a256251;
-    height: 56vh;
+    height: 50vh;
     cursor: pointer;
     transition: all 0.3s ease-in;
 }
@@ -1217,7 +1217,7 @@ header .nav-container .nav-details .web p {
     width: 30%;
     text-align: center;
     border: 4px dashed #1a256251;
-    height: 56vh;
+    height: 50vh;
     cursor: pointer;
     transition: all 0.3s ease-in;
 }
