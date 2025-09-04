@@ -408,23 +408,27 @@
         </div>
 
         <div class="Target-img">
-            <div class="Target-details1">
-                <h2>تحليل المخاطر و إدارة النزاعات القانونية</h2>
+            <div class="Target-details1" onmouseover="revealBox()" onmouseout="hideBox()">
+                <h2 class="toggle-h2" id="toggleHone">تحليل المخاطر و إدارة النزاعات القانونية</h2>
             </div>
 
-            <div class="Target-details2">
-                <h2>صياغة العقود و الاتفاقيات الدقيقة</h2>
+            <div class="Target-details2" onmouseover="revealBox1()" onmouseout="hideBox1()">
+                <h2 class="toggle-h2" id="toggleHTwo">صياغة العقود و الاتفاقيات الدقيقة</h2>
             </div>
 
             <div class="Target-details3">
-                <img src="/images/Lawicon1.png" alt="">
-                <h2>تعزبز حضوركم القانوني وتوسيع نطاق أعمالكم</h2>
-                <p>تختص مكاتب المحاماه في كتابة و صياغة العقود والاتفاقيات بين مختلف الأطراف و في مختلف العقود المبرمة
-                </p>
+                <div class="details3-bg">
+                    <img src="/images/Lawicon1.png" alt="">
+                    <h2>تعزبز حضوركم القانوني وتوسيع نطاق أعمالكم</h2>
+                    <p>تختص مكاتب المحاماه في كتابة و صياغة العقود والاتفاقيات بين مختلف الأطراف و في مختلف العقود
+                        المبرمة
+                    </p>
+                </div>
             </div>
 
             <div class="Target-details4">
-                <h2>استشارات استراتيجية قانونية متكاملة</h2>
+                <h2 id="toggleHThree" onmouseover="revealBox2()" onmouseout="hideBox2()">استشارات استراتيجية قانونية
+                    متكاملة</h2>
             </div>
         </div>
     </section>
@@ -623,47 +627,14 @@
         </div>
 
         <div class="trainer-img">
-            <div class="trainer-img1">
-                <img src="/images/trainerImg1.png" alt="">
-                <p>عبدالوهاب العنزي</p>
-            </div>
-
-            <div class="trainer-img2">
-                <img src="/images/trainerImg2.png" alt="">
-                <div class="img2-details">
-                    <h2>عبدالوهاب العنزي</h2>
-                    <h4>المدير العام المؤسس</h4>
-                    <p>عمل في المجال القانوني ما يقارب العشر سنوات تنقل فيها بين أروقة القانون إضافة الى توليه
-                        عدد
-                        من
-                        المناصب القيادية في المجال القانوني في جهات شبه حكومية، إضافة الى حصوله على بكالوريوس من
-                        كلية
-                        الاقتصاد والعلوم الإدارية.</p>
-
-                    <div class="trainer-social-icon">
-                        <a href="#"><img src="/images/fb_icon.png" alt=""></a>
-                        <a href="#"><img src="/images/insta-icon.png" alt=""></a>
-                        <a href="#"><img src="/images/link-icon.png" alt=""></a>
-                        <a href=""><img src="/images/Gmail icon.png" alt=""></a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="trainer-img3">
-                <img src="/images/trainerImg3.png" alt="">
-                <p>عبدالوهاب العنزي</p>
-            </div>
-        </div>
-
-
-        <div class="swiper trainer-IPAD">
-            <div class="trainer-imgs swiper-wrapper">
-                <div class="trainer-img1 swiper-slider">
+            <i class="fa-solid fa-chevron-left" id="backBtn" onclick="BackButtonClick()"></i>
+            <div class="trainer-slider">
+                <div class="trainer-img1">
                     <img src="/images/trainerImg1.png" alt="">
                     <p>عبدالوهاب العنزي</p>
                 </div>
 
-                <div class="trainer-img2 swiper-slider">
+                <div class="trainer-img2">
                     <img src="/images/trainerImg2.png" alt="">
                     <div class="img2-details">
                         <h2>عبدالوهاب العنزي</h2>
@@ -684,14 +655,74 @@
                     </div>
                 </div>
 
-                <div class="trainer-img3 swiper-slider">
+                <div class="trainer-img3">
+                    <img src="/images/trainerImg3.png" alt="">
+                    <p>عبدالوهاب العنزي</p>
+                </div>
+
+                <div class="trainer-img1">
+                    <img src="/images/trainerImg1.png" alt="">
+                    <p>عبدالوهاب العنزي</p>
+                </div>
+
+                <div class="trainer-img2">
+                    <img src="/images/trainerImg2.png" alt="">
+                    <div class="img2-details">
+                        <h2>عبدالوهاب العنزي</h2>
+                        <h4>المدير العام المؤسس</h4>
+                        <p>عمل في المجال القانوني ما يقارب العشر سنوات تنقل فيها بين أروقة القانون إضافة الى توليه
+                            عدد
+                            من
+                            المناصب القيادية في المجال القانوني في جهات شبه حكومية، إضافة الى حصوله على بكالوريوس من
+                            كلية
+                            الاقتصاد والعلوم الإدارية.</p>
+
+                        <div class="trainer-social-icon">
+                            <a href="#"><img src="/images/fb_icon.png" alt=""></a>
+                            <a href="#"><img src="/images/insta-icon.png" alt=""></a>
+                            <a href="#"><img src="/images/link-icon.png" alt=""></a>
+                            <a href=""><img src="/images/Gmail icon.png" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="trainer-img3">
+                    <img src="/images/trainerImg3.png" alt="">
+                    <p>عبدالوهاب العنزي</p>
+                </div>
+
+                <div class="trainer-img1">
+                    <img src="/images/trainerImg1.png" alt="">
+                    <p>عبدالوهاب العنزي</p>
+                </div>
+
+                <div class="trainer-img2">
+                    <img src="/images/trainerImg2.png" alt="">
+                    <div class="img2-details">
+                        <h2>عبدالوهاب العنزي</h2>
+                        <h4>المدير العام المؤسس</h4>
+                        <p>عمل في المجال القانوني ما يقارب العشر سنوات تنقل فيها بين أروقة القانون إضافة الى توليه
+                            عدد
+                            من
+                            المناصب القيادية في المجال القانوني في جهات شبه حكومية، إضافة الى حصوله على بكالوريوس من
+                            كلية
+                            الاقتصاد والعلوم الإدارية.</p>
+
+                        <div class="trainer-social-icon">
+                            <a href="#"><img src="/images/fb_icon.png" alt=""></a>
+                            <a href="#"><img src="/images/insta-icon.png" alt=""></a>
+                            <a href="#"><img src="/images/link-icon.png" alt=""></a>
+                            <a href=""><img src="/images/Gmail icon.png" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="trainer-img3">
                     <img src="/images/trainerImg3.png" alt="">
                     <p>عبدالوهاب العنزي</p>
                 </div>
             </div>
-
-            <div class="swiper-pagination"></div>
-            <div class="swiper-scrollbar"></div>
+            <i class="fa-solid fa-chevron-right" id="nextBtn" onclick="nextButtonClick()"></i>
         </div>
     </section>
 

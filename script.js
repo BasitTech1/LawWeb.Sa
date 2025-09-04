@@ -52,9 +52,52 @@ const swiper = new Swiper('.swiper', {
 });
 
 
-const CLickList = document.getElementById('CLick-list')
-const toggleBtn = document.getElementById('toggle-btn')
+function revealBox() {
+    document.getElementById('toggleHone').classList.add('toggle-open');
+}
 
-CLickList.addEventListener("click", () => {
-    toggleBtn.style.display = "flex"
+function hideBox() {
+    document.getElementById('toggleHone').classList.remove('toggle-open');
+}
+
+function revealBox1() {
+    document.getElementById('toggleHTwo').classList.add('toggle-open1');
+}
+
+function hideBox1() {
+    document.getElementById('toggleHTwo').classList.remove('toggle-open1');
+}
+
+function revealBox2() {
+    document.getElementById('toggleHThree').classList.add('toggle-open2');
+}
+
+function hideBox2() {
+    document.getElementById('toggleHThree').classList.remove('toggle-open2');
+}
+
+
+// ----------------------------------trainer-slider-------------------------
+
+let scrollContainer = document.querySelector(".trainer-slider")
+let backBtn = document.getElementById("backBtn")
+let nextBtn = document.getElementById("nextBtn")
+
+scrollContainer.addEventListener("wheel", (evt) => {
+    evt.preventDefault();
+    scrollContainer.scrollLeft += evt.deltaY
 })
+
+function BackButtonClick() {
+    backBtn.addEventListener("click", () => {
+        scrollContainer.style.scrollBehavior = 'smooth'
+        scrollContainer.scrollLeft -= 900
+    })
+}
+
+function nextButtonClick() {
+    nextBtn.addEventListener("click", () => {
+        scrollContainer.scrollLeft += 900
+        scrollContainer.style.scrollBehavior = 'smooth'
+    })
+}
