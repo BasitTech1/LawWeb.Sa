@@ -2076,7 +2076,7 @@ header .nav-container .nav-details .web p {
 }
 
 .trainer .trainer-img .trainer-slider .trainer-img1 {
-    width: 30%;
+    width: 40%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -7298,18 +7298,20 @@ header .nav-container .nav-details .web p {
     justify-content: center;
     flex-direction: column;
     gap: 18px;
-    background-color: #203a8e;
+    background-color: #ebeff5;
     padding: 2%;
     width: 100%;
     border-radius: 20px;
     box-shadow: 2px 2px 5px #282E69;
     cursor: pointer;
     transition: all 0.3s ease-in;
-    margin-top: -4%;
 }
 
+.packages8 .packages-data .package-details:hover, 
 .packages8 .packages-data .package-details1:hover {
-    background-color: #131c56;
+    background-color: #F3F7FF;
+    transform: scale(1.15);
+    color: white;
 }
 
 .packages8 .packages-data .package-details1 .package1 {
@@ -7323,7 +7325,7 @@ header .nav-container .nav-details .web p {
 
 .packages8 .packages-data .package-details1 .package1 h2 {
     font-size: 36px;
-    color: #F1F6FD;
+    color: #203a8e;
     font-weight: 800;
 }
 
@@ -7343,7 +7345,7 @@ header .nav-container .nav-details .web p {
 
 .packages8 .packages-data .package-details1 .package1 .package-points1 h3 {
     font-size: 22px;
-    color: #F1F6FD;
+    color: #203a8e;
 }
 
 .packages8 .packages-data .package-details1 .package1 .package-points1 .points {
@@ -7366,7 +7368,7 @@ header .nav-container .nav-details .web p {
 .packages8 .packages-data .package-details1 .package1 .package-points1 .points .point1 p {
     font-size: 12px;
     font-weight: 400;
-    color: #F1F6FD;
+    color: #203a8e;
 }
 
 .packages8 .packages-data .package-details1 .package1 .package-points1 .points .point1 p span {
@@ -7377,7 +7379,7 @@ header .nav-container .nav-details .web p {
 .packages8 .packages-data .package-details1 .package1 .package-points1 .points .point1 .one {
     width: 3%;
     height: 9px;
-    background-color: #F1F6FD;
+    background-color: #203a8e;
     border-radius: 20px;
 }
 
@@ -7392,7 +7394,7 @@ header .nav-container .nav-details .web p {
 
 .packages8 .packages-data .package-details1 .package1 .package-points2 h3 {
     font-size: 24px;
-    color: #F1F6FD;
+    color: #203a8e;
 }
 
 .packages8 .packages-data .package-details1 .package1 .package-points2 .points {
@@ -7413,7 +7415,7 @@ header .nav-container .nav-details .web p {
 .packages8 .packages-data .package-details1 .package1 .package-points2 .points .point1 p {
     font-size: 12px;
     font-weight: 700;
-    color: #F1F6FD;
+    color: #203a8e;
 }
 
 .packages8 .packages-data .package-details1 .package1 .package-points2 .points .point1 i {
@@ -7438,7 +7440,7 @@ header .nav-container .nav-details .web p {
     padding: 10px;
     border-radius: 30px;
     font-weight: bold;
-    color: #131c56;
+    color: #203a8e;
 }
 
 .packages8 .packages-data .package-details1 .btn p {
@@ -7447,7 +7449,7 @@ header .nav-container .nav-details .web p {
     padding: 10px;
     border-radius: 30px;
     font-weight: bold;
-    color: #131c56;
+    color: #203a8e;
 }
 
 .packages8 .packages-data .package-details1 .btn button {
