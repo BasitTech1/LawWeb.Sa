@@ -39,7 +39,7 @@ function btnHover() {
     CLickList.addEventListener("mouseover", () => {
         toggleBtn.style.display = 'flex'
     })
-    CLickList.addEventListener("mouseout", ()=>{
+    CLickList.addEventListener("click", ()=>{
         toggleBtn.style.display = 'none'
     })
 }
