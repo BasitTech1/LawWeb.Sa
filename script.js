@@ -30,26 +30,21 @@ document.addEventListener('DOMContentLoaded', function () {
     setupToggle('sum5', 'subtract5', 'data-para5');
 });
 
+// -------------------------------الممارسات----hoverbtn---------------
 
-// -----------------------------swifer Trainer-IPAD Slider-------------------
-const swiper = new Swiper('.swiper', {
-    // If we need pagination
-    pagination: {
-        el: '.swiper-pagination',
-    },
+const CLickList = document.getElementById('CLick-list')
+const toggleBtn = document.getElementById('toggle-btn')
 
-    breakpoints: {
-        0: {
-            slidesPerView: 1
-        },
-        724: {
-            slidesPerView: 1
-        }
-    },
-    scrollbar: {
-        el: '.swiper-scrollbar',
-    },
-});
+function btnHover() {
+    CLickList.addEventListener("mouseover", () => {
+        toggleBtn.style.display = 'flex'
+    })
+    CLickList.addEventListener("mouseout", ()=>{
+        toggleBtn.style.display = 'none'
+    })
+}
+
+// ------------------------------------sliderhovering-----------------
 
 
 function revealBox() {
