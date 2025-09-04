@@ -4858,7 +4858,7 @@ header .nav-container .nav-details .web p {
     text-decoration: none;
     background-color: #F1F6FD;
     padding: 32px;
-    border: 3px dashed #131c5660;
+    border: 6px dashed #131c5631;
     border-radius: 20px;
     cursor: pointer;
     transition: all 0.2s ease-in;
@@ -4867,6 +4867,7 @@ header .nav-container .nav-details .web p {
 .Law-details1 .law-details-slider1 .slider1:hover {
     box-shadow: 2px 2px 8px #1B2C62;
     background-color: #ebeff5;
+    transform: scale(1.05);
 }
 
 .Law-details1 .law-details-slider1 .slider1 h2 {
@@ -4908,32 +4909,32 @@ header .nav-container .nav-details .web p {
     flex-direction: column;
     width: 40%;
     gap: 20px;
-    background-color: #131c56;
+    background-color: #F1F6FD;
     padding: 32px;
-    border: 8px dashed #f1f6fd33;
+    border: 6px dashed #c4cfe6;
     border-radius: 20px;
-    margin-top: -80px;
     cursor: pointer;
     transition: all 0.3s ease-in;
 }
 
 .Law-details1 .law-details-slider1 .slider2:hover {
     box-shadow: 2px 2px 8px #96A3C0;
-    background-color: #1B2C62;
+    background-color: #ebeff5;
+    transform: scale(1.06);
 }
 
 .Law-details1 .law-details-slider1 .slider2 h2 {
     font-size: 21px;
     text-align: right;
     font-weight: bold;
-    color: #F1F6FD;
+    color: #131c56;
 }
 
 .Law-details1 .law-details-slider1 .slider2 p {
     text-align: right;
     font-size: 18px;
     font-weight: 500;
-    color: #F1F6FD;
+    color: #131c56;
 }
 
 .Law-details1 .law-details-slider1 .slider2 img {
