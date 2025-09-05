@@ -40,6 +40,10 @@ body {
     width: 60%;
 }
 
+.bg-section .mobile-menu{
+    display: none;
+}
+
 .header .nav-container .nav-details .call {
     display: flex;
     align-items: center;
