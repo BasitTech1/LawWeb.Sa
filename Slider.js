@@ -23,3 +23,39 @@ function nextButtonClick() {
         scrollContainer.style.scrollBehavior = 'smooth'
     })
 }
+
+
+
+
+// -----------------------------------certicateslider-------------
+
+function LeftButtonClick() {
+    let scrollSlider = document.querySelector(".certificate-slider");
+    let btnLeft = document.getElementById("btnLeft");
+    scrollSlider.style.scrollBehavior = 'smooth';
+    scrollSlider.scrollLeft -= 900;
+}
+
+function rightButtonClick() {
+    let scrollSlider = document.querySelector(".certificate-slider");
+    let btnRight = document.getElementById("btnRight");
+    scrollSlider.style.scrollBehavior = 'smooth';
+    scrollSlider.scrollLeft += 900;
+}
+
+// DOMContentLoaded event listener
+document.addEventListener("DOMContentLoaded", () => {
+    let scrollSlider = document.querySelector(".certificate-slider");
+    let btnLeft = document.getElementById("btnLeft");
+    let btnRight = document.getElementById("btnRight");
+
+    if (scrollSlider && btnLeft && btnRight) {
+        scrollSlider.addEventListener("wheel", (evt) => {
+            evt.preventDefault();
+            scrollSlider.scrollLeft += evt.deltaY * 0.5; // Smoother scrolling
+            scrollSlider.style.scrollBehavior = 'auto';
+        });
+    } else {
+        console.error("One or more elements not found in the DOM.");
+    }
+});
