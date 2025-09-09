@@ -72,3 +72,22 @@ function hideBox2() {
 }
 
 
+// --------------------box-animation----------------------------------
+
+document.addEventListener('DOMContentLoaded', () => {
+    const boxes = document.querySelectorAll('.price-box1, .price-box2, .price-box3, .price-box4');
+    const observer = new IntersectionObserver((entries, observer) => {
+        entries.forEach((entry, index) => {
+            if (entry.isIntersecting) {
+                setTimeout(() => {
+                    entry.target.classList.add('in-view');
+                }, index * 300); // Stagger animation by 300ms
+                observer.unobserve(entry.target);
+            }
+        });
+    }, { threshold: 0.5 });
+
+    boxes.forEach(box => {
+        observer.observe(box);
+    });
+});
