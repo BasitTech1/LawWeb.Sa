@@ -109,7 +109,7 @@ header .nav-container .nav-details .web p {
 
 .header .nav-buttons .left-btn {
     background-color: #f1f6fd6e;
-    padding: 4px 10px 6px 16px;
+    padding: 4px 8px 6px 9px;
 }
 
 .header .nav-buttons .left-btn li {
@@ -295,8 +295,8 @@ header .nav-container .nav-details .web p {
 }
 
 .hero-container .hero-content .hero-img {
-    width: 50%;
-    margin-left: 6%;
+    width: 40%;
+    margin-left: 2%;
 }
 
 .hero-container .hero-content .hero-img img {
@@ -310,10 +310,11 @@ header .nav-container .nav-details .web p {
     align-items: end;
     justify-content: right;
     flex-direction: column;
-    gap: 3px;
-    width: 50%;
-    margin-right: 8%;
-    margin-top: -6%;
+    gap: 12px;
+    width: 60%;
+    margin-right: 5%;
+    margin-top: -14%;
+    z-index: 1000;
 }
 
 .hero-container .hero-content .content-details h5 {
@@ -321,7 +322,7 @@ header .nav-container .nav-details .web p {
 }
 
 .hero-container .hero-content .content-details h2 {
-    font-size: 45px;
+    font-size: 50px;
 }
 
 .hero-container .hero-content .content-details .line {
@@ -338,7 +339,7 @@ header .nav-container .nav-details .web p {
 }
 
 .hero-container .hero-content .content-details .subContent-details h3 {
-    font-size: 20px;
+    font-size: 26px;
 }
 
 .hero-container .hero-content .content-details .subContent-details p {
@@ -359,14 +360,14 @@ header .nav-container .nav-details .web p {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 28px;
-    padding: 18px;
+    gap: 20px;
+    padding: 17px;
     border-radius: 50px;
     border: none;
     outline: none;
     font-weight: 600;
     cursor: pointer;
-    width: 50%;
+    width: 40%;
 }
 
 .hero-container .hero-content .content-details .hero_btns .btn-2 {
@@ -540,6 +541,7 @@ header .nav-container .nav-details .web p {
 
 .TwoSection .Two-discussion .Two-background img {
     width: 100%;
+    height: 1700px;
 }
 
 .TwoSection .Two-discussion .dicussion-caligraphy {
@@ -620,10 +622,10 @@ header .nav-container .nav-details .web p {
 
 .TwoSection .Two-img-content .content-detail-two .img-content-pic .img-bg {
     width: 40%;
-    height: 90vh;
+    height: 84vh;
     background-color: #E5A82A;
     position: absolute;
-    top: 54%;
+    top: 47%;
     margin-left: 5%;
     border-radius: 30px;
 }
@@ -659,7 +661,7 @@ header .nav-container .nav-details .web p {
 .TwoSection .Two-img-content .content-detail-three {
     margin-right: 4%;
     text-align: right;
-    margin-top: 2%;
+    margin-top: 3%;
     width: 50%;
 }
 
@@ -767,7 +769,7 @@ header .nav-container .nav-details .web p {
     align-items: center;
     justify-content: center;
     position: absolute;
-    top: 310%;
+    top: 300%;
     width: 100%;
     gap: 50px;
     padding: 80px;
@@ -1072,7 +1074,7 @@ header .nav-container .nav-details .web p {
     top: 450%;
     width: 100%;
     text-align: center;
-    width: 100%;
+    z-index: 1000;
 }
 
 .service-content .service-lines {
@@ -1148,10 +1150,25 @@ header .nav-container .nav-details .web p {
     color: #131c56;
     font-size: 18px;
     font-weight: 500;
+    transition: all ease-in 0.3s;
+}
+
+.service-content .service-btn .btn2:hover {
+    background-color: #e0eaf7;
 }
 
 .service-content .service-btn .btn1 {
     width: 100%;
+    transition: all ease-in 0.3s;
+    padding: 20px;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+    cursor: pointer;
+}
+
+.service-content .service-btn .btn1:hover {
+    background-color: #282E69;
+    color: white;
 }
 
 /* ---------------------------service slider-------------------------  */
@@ -1308,7 +1325,7 @@ header .nav-container .nav-details .web p {
 }
 
 .Service-box .slider-btn:hover {
-    background: linear-gradient(60deg, rgb(3, 13, 48) 100%, rgba(49, 74, 155, 1)100%);
+    background: linear-gradient(60deg, rgb(1, 21, 92) 100%, rgba(49, 74, 155, 1)100%);
 }
 
 /* -----------------------------Target----------------------------- */
@@ -2117,7 +2134,7 @@ header .nav-container .nav-details .web p {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 85%;
+    width: 80%;
 }
 
 .trainer .trainer-img div {
@@ -2129,7 +2146,7 @@ header .nav-container .nav-details .web p {
 }
 
 .trainer .trainer-img .trainer-slider .trainer-img1 {
-    width: 40%;
+    width: 34%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -2156,7 +2173,7 @@ header .nav-container .nav-details .web p {
 }
 
 .trainer .trainer-img .trainer-slider .trainer-img2 {
-    width: 40%;
+    width: 34%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -2170,8 +2187,8 @@ header .nav-container .nav-details .web p {
     text-align: center;
     background-color: #1a2562df;
     padding: 30px;
-    width: 70%;
-    top: 41.6%;
+    width: 83%;
+    top: 41.5%;
 }
 
 .trainer .trainer-img .trainer-slider .trainer-img2 .img2-details h2 {
@@ -2203,7 +2220,7 @@ header .nav-container .nav-details .web p {
 }
 
 .trainer .trainer-img .trainer-slider .trainer-img3 {
-    width: 40%;
+    width: 38%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -2305,6 +2322,7 @@ header .nav-container .nav-details .web p {
     border-radius: 20px;
     border: 5px dashed #1a256242;
     width: 65%;
+    transition: all ease-in 0.3s;
 }
 
 .hiring .hiring-slider .hiringSlider1 h2 {
@@ -2351,7 +2369,14 @@ header .nav-container .nav-details .web p {
     border-radius: 20px;
     border: 4px dashed #ffffff60;
     width: 65%;
-    margin-bottom: 12%;
+    cursor: pointer;
+    transition: all ease-in 0.3s;
+}
+
+.hiring .hiring-slider .hiringSlider1:hover,
+.hiring .hiring-slider .hiringSlider2:hover,
+.hiring .hiring-slider .hiringSlider3:hover{
+    transform: scale(1.1);
 }
 
 .hiring .hiring-slider .hiringSlider2 h2 {
@@ -2393,6 +2418,7 @@ header .nav-container .nav-details .web p {
     border-radius: 20px;
     border: 5px dashed #1a256242;
     width: 65%;
+    transition: all ease-in 0.3s;
 }
 
 .hiring .hiring-slider .hiringSlider3 h2 {
