@@ -2146,7 +2146,7 @@ header .nav-container .nav-details .web p {
 }
 
 .trainer .trainer-img .trainer-slider .trainer-img1 {
-    width: 34%;
+    width: 35%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -2173,7 +2173,7 @@ header .nav-container .nav-details .web p {
 }
 
 .trainer .trainer-img .trainer-slider .trainer-img2 {
-    width: 34%;
+    width: 35%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -2215,17 +2215,13 @@ header .nav-container .nav-details .web p {
 }
 
 .trainer .trainer-img .trainer-slider .trainer-img3 {
-    width: 40%;
-    transition: all 0.3s ease-in;
-}
-
-.trainer .trainer-img .trainer-slider .trainer-img3 {
     width: 38%;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     position: relative;
+    transition: all 0.3s ease-in;
 }
 
 .trainer .trainer-img .trainer-slider .trainer-img3 p {
