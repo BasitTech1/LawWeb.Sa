@@ -2312,24 +2312,38 @@ header .nav-container .nav-details .web p {
     margin-top: 60px;
 }
 
-.hiring .hiring-slider .hiringSlider1 {
+.hiring .hiring-slider .hiringSlider1,
+.hiring .hiring-slider .hiringSlider2,
+.hiring .hiring-slider .hiringSlider3 {
     background-color: #c4cfe668;
     padding: 20px;
     border-radius: 20px;
     border: 5px dashed #1a256242;
     width: 65%;
     transition: all ease-in 0.3s;
+    color: #1A2562;
 }
 
-.hiring .hiring-slider .hiringSlider1 h2 {
+.hiring .hiring-slider .hiringSlider1:hover,
+.hiring .hiring-slider .hiringSlider2:hover,
+.hiring .hiring-slider .hiringSlider3:hover{
+    background-color: #1A2562;
+    border: 5px dashed #c4cfe668;
+     transform: scale(1.1);
+     color: white;
+}
+
+.hiring .hiring-slider .hiringSlider1 h2,
+.hiring .hiring-slider .hiringSlider2 h2,
+.hiring .hiring-slider .hiringSlider3 h2 {
     font-size: 20px;
-    color: #1A2562;
     margin-bottom: 12px;
 }
 
-.hiring .hiring-slider .hiringSlider1 p {
+.hiring .hiring-slider .hiringSlider1 p,
+.hiring .hiring-slider .hiringSlider2 p,
+.hiring .hiring-slider .hiringSlider3 p {
     font-size: 14px;
-    color: #1A2562;
     margin-bottom: 12px;
 }
 
@@ -2339,96 +2353,8 @@ header .nav-container .nav-details .web p {
     margin-left: -20px;
 }
 
-.hiring .hiring-slider .hiringSlider1 button {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 30%;
-    gap: 10px;
-    margin-top: 8px;
-    margin-left: 70%;
-    outline: none;
-    border: none;
-    background: transparent;
-    color: #1A2562;
-    cursor: pointer;
-}
-
-.hiring .hiring-slider .hiringSlider1 button p {
-    font-size: 18px;
-    font-weight: 700;
-}
-
-.hiring .hiring-slider .hiringSlider2 {
-    background-color: #1A2562;
-    padding: 20px;
-    border-radius: 20px;
-    border: 4px dashed #ffffff60;
-    width: 65%;
-    cursor: pointer;
-    transition: all ease-in 0.3s;
-}
-
-.hiring .hiring-slider .hiringSlider1:hover,
-.hiring .hiring-slider .hiringSlider2:hover,
-.hiring .hiring-slider .hiringSlider3:hover {
-    transform: scale(1.1);
-}
-
-.hiring .hiring-slider .hiringSlider2 h2 {
-    font-size: 20px;
-    color: white;
-    margin-bottom: 12px;
-}
-
-.hiring .hiring-slider .hiringSlider2 p {
-    font-size: 14px;
-    color: white;
-    margin-bottom: 12px;
-}
-
-.hiring .hiring-slider .hiringSlider2 button {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 30%;
-    gap: 10px;
-    margin-top: 8px;
-    margin-left: 70%;
-    outline: none;
-    border: none;
-    background: transparent;
-    color: white;
-    cursor: pointer;
-}
-
-.hiring .hiring-slider .hiringSlider2 button p {
-    font-size: 18px;
-    font-weight: 700;
-    color: white;
-}
-
-.hiring .hiring-slider .hiringSlider3 {
-    background-color: #c4cfe668;
-    padding: 20px;
-    border-radius: 20px;
-    border: 5px dashed #1a256242;
-    width: 65%;
-    transition: all ease-in 0.3s;
-}
-
-.hiring .hiring-slider .hiringSlider3 h2 {
-    font-size: 20px;
-    color: #1A2562;
-    margin-bottom: 12px;
-}
-
-.hiring .hiring-slider .hiringSlider3 p {
-    font-size: 14px;
-    color: #1A2562;
-    margin-bottom: 12px;
-}
-
+.hiring .hiring-slider .hiringSlider1 button,
+.hiring .hiring-slider .hiringSlider2 button,
 .hiring .hiring-slider .hiringSlider3 button {
     display: flex;
     align-items: center;
@@ -2444,6 +2370,14 @@ header .nav-container .nav-details .web p {
     cursor: pointer;
 }
 
+.hiring .hiring-slider .hiringSlider1 button:hover,
+.hiring .hiring-slider .hiringSlider2 button:hover,
+.hiring .hiring-slider .hiringSlider3 button:hover{
+    color: white;
+}
+
+.hiring .hiring-slider .hiringSlider1 button p,
+.hiring .hiring-slider .hiringSlider2 button p,
 .hiring .hiring-slider .hiringSlider3 button p {
     font-size: 18px;
     font-weight: 700;
