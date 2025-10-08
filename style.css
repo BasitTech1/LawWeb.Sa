@@ -35,9 +35,9 @@ body {
     display: flex;
     align-items: flex-start;
     justify-content: left;
-    gap: 40px;
+    gap: 7px;
     color: white;
-    width: 60%;
+    width: 66%;
 }
 
 .bg-section .mobile-menu {
@@ -225,7 +225,7 @@ header .nav-container .nav-details .web p {
 
 .left-container {
     background: #252B63;
-    width: 38%;
+    width: 33%;
     min-height: 140vh;
 }
 
@@ -2371,7 +2371,7 @@ header .nav-container .nav-details .web p {
 
 .hiring .hiring-slider .hiringSlider1:hover,
 .hiring .hiring-slider .hiringSlider2:hover,
-.hiring .hiring-slider .hiringSlider3:hover{
+.hiring .hiring-slider .hiringSlider3:hover {
     transform: scale(1.1);
 }
 
