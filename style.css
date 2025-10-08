@@ -1071,7 +1071,7 @@ header .nav-container .nav-details .web p {
     flex-direction: column;
     position: absolute;
     gap: 10px;
-    top: 450%;
+    top: 460%;
     width: 100%;
     text-align: center;
     z-index: 1000;
@@ -1174,7 +1174,7 @@ header .nav-container .nav-details .web p {
 /* ---------------------------service slider-------------------------  */
 .Service-box {
     position: absolute;
-    top: 470%;
+    top: 484%;
     width: 100%;
 }
 
@@ -1332,7 +1332,7 @@ header .nav-container .nav-details .web p {
 
 .Target {
     position: absolute;
-    top: 540%;
+    top: 556%;
     display: flex;
     align-items: center;
     justify-content: center;
