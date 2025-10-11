@@ -554,7 +554,7 @@ header .nav-container .nav-details .web p {
 
 .TwoSection .Two-discussion .dicussion-caligraphy {
     position: absolute;
-    top: 20%;
+    top: 3%;
     width: 100%;
     overflow: hidden;
 }
@@ -609,7 +609,7 @@ header .nav-container .nav-details .web p {
     gap: 20px;
     width: 100%;
     padding: 50px;
-    margin-top: -25%;
+    margin-top: -10%;
 }
 
 .TwoSection .Two-img-content .content-detail-two {
