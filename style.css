@@ -368,6 +368,7 @@ header .nav-container .nav-details .web p {
     font-weight: 600;
     cursor: pointer;
     width: 40%;
+    transition: all ease-in 0.3s;
 }
 
 .hero-container .hero-content .content-details .hero_btns .btn-2 {
@@ -378,6 +379,10 @@ header .nav-container .nav-details .web p {
 
 .hero-container .hero-content .content-details .hero_btns .btn-2 i {
     color: #E5A82A;
+}
+
+.hero-container .hero-content .content-details .hero_btns .btn-2:hover{
+    background-color: #252B63;
 }
 
 
