@@ -353,6 +353,8 @@ header .nav-container .nav-details .web p {
     justify-content: right;
     gap: 26px;
     width: 100%;
+    position: absolute;
+    top: 61%;
 }
 
 .hero-container .hero-content .content-details .hero_btns .btn-1,
@@ -2326,11 +2328,11 @@ header .nav-container .nav-details .web p {
 
 .hiring .hiring-slider .hiringSlider1:hover,
 .hiring .hiring-slider .hiringSlider2:hover,
-.hiring .hiring-slider .hiringSlider3:hover{
+.hiring .hiring-slider .hiringSlider3:hover {
     background-color: #1A2562;
     border: 5px dashed #c4cfe668;
-     transform: scale(1.1);
-     color: white;
+    transform: scale(1.1);
+    color: white;
 }
 
 .hiring .hiring-slider .hiringSlider1 h2,
@@ -2372,7 +2374,7 @@ header .nav-container .nav-details .web p {
 
 .hiring .hiring-slider .hiringSlider1 button:hover,
 .hiring .hiring-slider .hiringSlider2 button:hover,
-.hiring .hiring-slider .hiringSlider3 button:hover{
+.hiring .hiring-slider .hiringSlider3 button:hover {
     color: white;
 }
 
