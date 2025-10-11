@@ -528,7 +528,6 @@ header .nav-container .nav-details .web p {
 .TwoSection .Two-discussion {
     width: 100%;
     position: absolute;
-    top: -300px;
     z-index: -1000;
 }
 
