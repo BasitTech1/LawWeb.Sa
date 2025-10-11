@@ -386,6 +386,10 @@ header .nav-container .nav-details .web p {
     background: linear-gradient(60deg, rgb(67, 100, 209)100%, rgba(27, 44, 98, 1) 100%);
 }
 
+.hero-container .hero-content .content-details .hero_btns .btn-1:hover{
+    background: #B1BBDA;
+}
+
 
 /* --------------------------------price------------------------- */
 .TwoSection {
