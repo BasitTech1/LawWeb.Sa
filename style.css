@@ -352,7 +352,7 @@ header .nav-container .nav-details .web p {
     align-items: end;
     justify-content: right;
     gap: 26px;
-    width: 100%;
+    width: 36%;
     position: absolute;
     top: 61%;
 }
