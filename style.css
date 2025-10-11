@@ -382,7 +382,7 @@ header .nav-container .nav-details .web p {
 }
 
 .hero-container .hero-content .content-details .hero_btns .btn-2:hover{
-    background: #2a39c8;
+    background: linear-gradient(270deg, rgba(27, 44, 98, 1) 100%, rgba(49, 74, 155, 1)100%);
 }
 
 
