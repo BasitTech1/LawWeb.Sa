@@ -375,6 +375,7 @@ header .nav-container .nav-details .web p {
     background: linear-gradient(60deg, rgba(27, 44, 98, 1) 100%, rgba(49, 74, 155, 1)100%);
     color: white;
     cursor: pointer;
+    transition: all ease-in 0.3s;
 }
 
 .hero-container .hero-content .content-details .hero_btns .btn-2 i {
