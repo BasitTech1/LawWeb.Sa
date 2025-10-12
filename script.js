@@ -46,31 +46,15 @@ function btnHover() {
 
 // ------------------------------------sliderhovering-----------------
 
-
-function revealBox() {
-    document.getElementById('toggleHone').classList.add('toggle-open');
+function revealBox3() {
+    document.getElementById('target-hover3').classList.add('toggle-open1');
+    console.log("hover")
 }
 
-function hideBox() {
-    document.getElementById('toggleHone').classList.remove('toggle-open');
+function hideBox3() {
+    document.getElementById('target-hover3').classList.remove('toggle-open1');
+    console.log("out")
 }
-
-function revealBox1() {
-    document.getElementById('toggleHTwo').classList.add('toggle-open1');
-}
-
-function hideBox1() {
-    document.getElementById('toggleHTwo').classList.remove('toggle-open1');
-}
-
-function revealBox2() {
-    document.getElementById('toggleHThree').classList.add('toggle-open2');
-}
-
-function hideBox2() {
-    document.getElementById('toggleHThree').classList.remove('toggle-open2');
-}
-
 
 // --------------------box-animation----------------------------------
 

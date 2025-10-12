@@ -55,7 +55,5 @@ document.addEventListener("DOMContentLoaded", () => {
             scrollSlider.scrollLeft += evt.deltaY * 0.5; // Smoother scrolling
             scrollSlider.style.scrollBehavior = 'auto';
         });
-    } else {
-        console.error("One or more elements not found in the DOM.");
-    }
+    } 
 });

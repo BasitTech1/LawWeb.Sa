@@ -1446,12 +1446,6 @@ header .nav-container .nav-details .web p {
     padding: 16px;
 }
 
-.Target .Target-img .Target-details1 .toggle-open {
-    display: flex;
-    transform: translateY(0%);
-    transition: all 0.3s ease;
-}
-
 .Target .Target-img .Target-details2 {
     width: 40%;
     margin-top: 35px;
@@ -1478,12 +1472,6 @@ header .nav-container .nav-details .web p {
     padding: 16px;
 }
 
-.Target .Target-img .Target-details2 .toggle-open1 {
-    display: flex;
-    transform: translateY(0%);
-    transition: all 0.3s ease;
-}
-
 .Target .Target-img .Target-details3 {
     width: 40%;
     margin-top: 35px;
@@ -1494,7 +1482,7 @@ header .nav-container .nav-details .web p {
 }
 
 
-.Target .Target-img .Target-details3 .details3-bg {
+.Target .Target-img .Target-details3 .details3-bg{
     height: 65vh;
     display: flex;
     align-items: center;
@@ -1505,6 +1493,10 @@ header .nav-container .nav-details .web p {
     background-color: #131c5691;
     padding: 16px;
     margin-top: 19%;
+}
+
+.Target .Target-img .Target-details3 .details3-bg .toggle-open1 {
+    display: flex;
 }
 
 .Target .Target-img .Target-details3 h2 {
