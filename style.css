@@ -1163,7 +1163,8 @@ header .nav-container .nav-details .web p {
 }
 
 .service-content .service-btn .btn2:hover {
-    background-color: #e0eaf7;
+    background-color: #013272;
+    color: white;
 }
 
 .service-content .service-btn .btn1 {
