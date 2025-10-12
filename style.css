@@ -1269,6 +1269,7 @@ header .nav-container .nav-details .web p {
     color: #1A2562;
     left: 38%;
     cursor: pointer;
+    transition: all ease-in 0.3s;
 }
 
 .Service-box .service-slider .slider2 button:hover{
