@@ -1812,6 +1812,11 @@ header .nav-container .nav-details .web p {
     color: #1A2562;
 }
 
+.form-details .form-request .form-uplod button:hover{
+    background-color: #131c56;
+    color: white;
+}
+
 .form-details .form-request .form-uplod button img {
     width: 20px;
     color: #1A2562;
