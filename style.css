@@ -387,7 +387,8 @@ header .nav-container .nav-details .web p {
 }
 
 .hero-container .hero-content .content-details .hero_btns .btn-1:hover{
-    background: #B1BBDA;
+    background: #1c2e66;
+    color: white;
 }
 
 
