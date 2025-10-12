@@ -1335,7 +1335,8 @@ header .nav-container .nav-details .web p {
 }
 
 .Service-box .slider-btn:hover {
-    background: linear-gradient(60deg, rgb(1, 21, 92) 50%, rgba(49, 74, 155, 1)100%);
+    background: #131c56;
+    color: white;
 }
 
 /* -----------------------------Target----------------------------- */
