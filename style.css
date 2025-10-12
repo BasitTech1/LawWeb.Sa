@@ -1336,7 +1336,7 @@ header .nav-container .nav-details .web p {
 }
 
 .Service-box .slider-btn:hover {
-    background: rgb(92, 91, 91);
+    background: rgba(206, 205, 205, 0.896);
     color: #131c56;
 }
 
