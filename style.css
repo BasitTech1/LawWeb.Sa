@@ -1332,10 +1332,11 @@ header .nav-container .nav-details .web p {
     width: 20%;
     margin-left: 40%;
     margin-top: -4%;
+    transition: all ease-in 0.3s;
 }
 
 .Service-box .slider-btn:hover {
-    background: white;
+    background: rgb(92, 91, 91);
     color: #131c56;
 }
 
