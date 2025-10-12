@@ -1335,8 +1335,8 @@ header .nav-container .nav-details .web p {
 }
 
 .Service-box .slider-btn:hover {
-    background: #131c56;
-    color: white;
+    background: white;
+    color: #131c56;
 }
 
 /* -----------------------------Target----------------------------- */
