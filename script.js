@@ -39,22 +39,41 @@ function btnHover() {
     CLickList.addEventListener("mouseover", () => {
         toggleBtn.style.display = 'flex'
     })
-    CLickList.addEventListener("click", ()=>{
+    CLickList.addEventListener("click", () => {
         toggleBtn.style.display = 'none'
     })
 }
 
+// -------------------------------------Service-box---------------------
+
+document.addEventListener('DOMContentLoaded', () => {
+    const boxes = document.querySelector('.slider2');
+    const button = document.querySelector('.btnHover');
+
+    boxes.addEventListener('mouseover', () => {
+        button.style.display = 'flex';
+    });
+
+    boxes.addEventListener('mouseout', () => {
+        button.style.display = 'none';
+    });
+});
+
 // ------------------------------------sliderhovering-----------------
+document.addEventListener('DOMContentLoaded', () => {
+    const target = document.getElementById('target-hover3');
+    const details3Hover = document.getElementById("details3Bg")
 
-function revealBox3() {
-    document.getElementById('target-hover3').classList.add('toggle-open1');
-    console.log("hover")
-}
+    target.addEventListener('mouseover', () => {
+        details3Hover.style.display = 'flex'
+        details3Hover.style.transition = "all 0.3s ease-In"
+    })
 
-function hideBox3() {
-    document.getElementById('target-hover3').classList.remove('toggle-open1');
-    console.log("out")
-}
+    target.addEventListener('mouseout', () => {
+        details3Hover.style.display = 'none'
+        details3Hover.style.transition = "all 0.3s ease-In"
+    })
+});
 
 // --------------------box-animation----------------------------------
 
@@ -75,3 +94,20 @@ document.addEventListener('DOMContentLoaded', () => {
         observer.observe(box);
     });
 });
+
+
+// ------------------------------trainer-----------------------------
+
+document.addEventListener('DOMContentLoaded', () => {
+    const trainerTwo = document.querySelector('.trainer-img2');
+    const imgTwoDetails = document.querySelector('.img2-details');
+
+    trainerTwo.addEventListener('mouseover', () => {
+        imgTwoDetails.style.opacity = '1';
+    });
+
+    trainerTwo.addEventListener('mouseout', () => {
+        imgTwoDetails.style.opacity = '0';
+    });
+});
+

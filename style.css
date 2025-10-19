@@ -382,11 +382,11 @@ header .nav-container .nav-details .web p {
     color: #E5A82A;
 }
 
-.hero-container .hero-content .content-details .hero_btns .btn-2:hover{
+.hero-container .hero-content .content-details .hero_btns .btn-2:hover {
     background: linear-gradient(60deg, rgb(67, 100, 209)100%, rgba(27, 44, 98, 1) 100%);
 }
 
-.hero-container .hero-content .content-details .hero_btns .btn-1:hover{
+.hero-container .hero-content .content-details .hero_btns .btn-1:hover {
     background: #1c2e66;
     color: white;
 }
@@ -1256,7 +1256,7 @@ header .nav-container .nav-details .web p {
 
 .Service-box .service-slider .slider2 button {
     position: absolute;
-    display: flex;
+    display: none;
     justify-content: center;
     align-items: center;
     gap: 12px;
@@ -1272,7 +1272,7 @@ header .nav-container .nav-details .web p {
     transition: all ease-in 0.3s;
 }
 
-.Service-box .service-slider .slider2 button:hover{
+.Service-box .service-slider .slider2 button:hover {
     background-color: #131c56;
     color: white;
 }
@@ -1482,9 +1482,9 @@ header .nav-container .nav-details .web p {
 }
 
 
-.Target .Target-img .Target-details3 .details3-bg{
+.Target .Target-img .Target-details3 .details3-bg {
     height: 65vh;
-    display: flex;
+    display: none;
     align-items: center;
     justify-content: center;
     flex-direction: column;
@@ -1493,10 +1493,7 @@ header .nav-container .nav-details .web p {
     background-color: #131c5691;
     padding: 16px;
     margin-top: 19%;
-}
-
-.Target .Target-img .Target-details3 .details3-bg .toggle-open1 {
-    display: flex;
+    transition: all easeIn 0.3s;
 }
 
 .Target .Target-img .Target-details3 h2 {
@@ -1806,7 +1803,7 @@ header .nav-container .nav-details .web p {
     color: #1A2562;
 }
 
-.form-details .form-request .form-uplod button:hover{
+.form-details .form-request .form-uplod button:hover {
     background-color: #131c56;
     color: white;
 }
@@ -2167,7 +2164,6 @@ header .nav-container .nav-details .web p {
 }
 
 .trainer .trainer-img .trainer-slider .trainer-img1:hover,
-.trainer .trainer-img .trainer-slider .trainer-img2:hover,
 .trainer .trainer-img .trainer-slider .trainer-img3:hover {
     cursor: pointer;
     transform: scale(1.1);
@@ -2191,6 +2187,7 @@ header .nav-container .nav-details .web p {
     flex-direction: column;
     position: relative;
     transition: all 0.3s ease-in;
+    cursor: pointer;
 }
 
 .trainer .trainer-img .trainer-slider .trainer-img2 .img2-details {
@@ -2200,6 +2197,12 @@ header .nav-container .nav-details .web p {
     padding: 30px;
     width: 83%;
     top: 41.5%;
+    opacity: 0;
+    transition: opacity 0.3s ease-in;
+}
+
+.trainer .trainer-img .trainer-slider .trainer-img2 .img2-show {
+    opacity: 1;
 }
 
 .trainer .trainer-img .trainer-slider .trainer-img2 .img2-details h2 {
@@ -2337,11 +2340,11 @@ header .nav-container .nav-details .web p {
 
 .hiring .hiring-slider .hiringSlider1:hover,
 .hiring .hiring-slider .hiringSlider2:hover,
-.hiring .hiring-slider .hiringSlider3:hover{
+.hiring .hiring-slider .hiringSlider3:hover {
     background-color: #1A2562;
     border: 5px dashed #c4cfe668;
-     transform: scale(1.1);
-     color: white;
+    transform: scale(1.1);
+    color: white;
 }
 
 .hiring .hiring-slider .hiringSlider1 h2,
@@ -2383,7 +2386,7 @@ header .nav-container .nav-details .web p {
 
 .hiring .hiring-slider .hiringSlider1 button:hover,
 .hiring .hiring-slider .hiringSlider2 button:hover,
-.hiring .hiring-slider .hiringSlider3 button:hover{
+.hiring .hiring-slider .hiringSlider3 button:hover {
     color: white;
 }
 
