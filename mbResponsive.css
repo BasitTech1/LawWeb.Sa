@@ -1456,7 +1456,7 @@
     }
 
     .contact-Slider {
-        top: 1595%;
+        top: 1655%;
         height: 70vh;
         display: flex;
         gap: 23px;
@@ -1526,12 +1526,12 @@
     }
 
     .Brand {
-        top: 1709%;
+        top: 1780%;
         display: flex;
     }
 
     .Brand .Brand-details {
-        width: 60%;
+        width: 80%;
         gap: 3px;
     }
 
@@ -1565,7 +1565,7 @@
     }
 
     .footer {
-        top: 1743%;
+        top: 1823%;
         display: flex;
     }
 
