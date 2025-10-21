@@ -1192,8 +1192,8 @@
     }
 
     .trainer .trainer-content {
-        width: 80%;
-        gap: 3px;
+        width: 90%;
+        gap: 2px;
     }
 
     .trainer .trainer-content h4 {
@@ -1228,8 +1228,8 @@
     .trainer .trainer-img {
         display: flex;
         width: 100%;
-        padding: 4px;
-        margin-top: 26px;
+        padding: 1px;
+        margin-top: 10px;
     }
 
     .trainer .trainer-img .trainer-slider {
@@ -1308,6 +1308,7 @@
     .trainer .trainer-img #backBtn,
     #nextBtn {
         padding: 7px 13px;
+        font-size: 12px;
     }
 
     .hiring {
