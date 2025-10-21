@@ -350,7 +350,7 @@
 
     .TwoSection .Two-img-content .content-detail-three {
         text-align: right;
-        margin-top: -42%;
+        margin-top: 40%;
         width: 100%;
         display: flex;
         align-items: center;
@@ -370,6 +370,15 @@
     .TwoSection .Two-img-content .content-detail-three .point3,
     .TwoSection .Two-img-content .content-detail-three .point4 {
         font-size: 26px;
+        cursor: pointer;
+        transition: all ease-in 0.3s;
+    }
+
+    .TwoSection .Two-img-content .content-detail-three .point1:hover,
+    .TwoSection .Two-img-content .content-detail-three .point2:hover,
+    .TwoSection .Two-img-content .content-detail-three .point3:hover,
+    .TwoSection .Two-img-content .content-detail-three .point4:hover{
+        color: white;
     }
 
     .TwoSection .Two-img-content .content-detail-three .point1 i,
