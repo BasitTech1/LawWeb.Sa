@@ -103,7 +103,7 @@
         padding: 10px 5px 12px 4px;
     }
 
-    .header .nav-buttons .left-btn li:hover{
+    .header .nav-buttons .left-btn li:hover {
         padding: 10px 6px 12px 6px;
     }
 
@@ -377,7 +377,7 @@
     .TwoSection .Two-img-content .content-detail-three .point1:hover,
     .TwoSection .Two-img-content .content-detail-three .point2:hover,
     .TwoSection .Two-img-content .content-detail-three .point3:hover,
-    .TwoSection .Two-img-content .content-detail-three .point4:hover{
+    .TwoSection .Two-img-content .content-detail-three .point4:hover {
         color: white;
     }
 
@@ -394,8 +394,8 @@
         justify-content: center;
         gap: 12px;
         text-align: center;
-        padding: -1px;
-        margin-top: 70%;
+        padding: 3px;
+        margin-top: 65%;
         border: none;
         outline: none;
         border-radius: 60px;
@@ -406,12 +406,17 @@
         cursor: pointer;
     }
 
+    .TwoSection .Two-img-content .content-detail-three button p {
+        color: white;
+        margin-top: 4px;
+    }
+
     .TwoSection .Two-img-content .content-detail-two .img-details {
         background-color: #F3F7FF;
         padding: 30px;
         position: absolute;
         z-index: 100;
-        top: 58%;
+        top: 50%;
         left: 13%;
         border-radius: 10px;
         width: 71%;
@@ -456,11 +461,11 @@
         top: 267%;
         width: 100%;
         gap: 32px;
-        padding: 60px;
+        padding: 50px;
     }
 
     .review-details .review-box1 h3 {
-        font-size: 20px;
+        font-size: 17px;
         color: #1B2C62;
         margin-top: 10px;
     }
@@ -477,16 +482,7 @@
     }
 
     .review-details .review-box2 h3 {
-        font-size: 20px;
-    }
-
-    .review-details .review-box2 .circle2 {
-        width: 4%;
-        background-color: #B0852D;
-        height: 12px;
-        position: relative;
-        top: -28px;
-        border-radius: 60px;
+        font-size: 15px;
     }
 
     .review-details .review-box2 p {
@@ -494,13 +490,17 @@
     }
 
     .review-details .review-box3 h3 {
-        font-size: 20px;
+        font-size: 17px;
     }
 
     .review-details .review-box3 .circle3 {
         width: 4%;
         height: 11px;
         top: -27px;
+    }
+
+    .review-details .review-line {
+        top: 49%;
     }
 
     .review-details .review-box3 p {
@@ -515,6 +515,7 @@
         position: absolute;
         top: 325%;
         width: 100%;
+        padding: 40px;
     }
 
     .info-details .info-image {
@@ -543,8 +544,8 @@
 
     .info-details .info-content p {
         text-align: center;
-        font-size: 29px;
-        line-height: 47px;
+        font-size: 24px;
+        line-height: 45px;
         color: #1B2C62;
     }
 
