@@ -420,7 +420,7 @@
 
     .TwoSection .Two-img-content .content-detail-three {
         width: 100%;
-        margin-top: 0px;
+        margin-top: 100px;
     }
 
     .TwoSection .Two-img-content .content-detail-three h2 {
@@ -456,7 +456,7 @@
 
     .TwoSection .Two-img-content .content-detail-two .img-details {
         padding: 20px;
-        top: 0%;
+        top: 100%;
         left: 13%;
         gap: 7px;
     }
@@ -500,11 +500,13 @@
     .TwoSection .Two-img-content .content-detail-three button {
         gap: 10px;
         padding: 2px;
-        margin-top: 0%;
+        margin-top: 13%;
         border-radius: 20px;
         left: 0;
         width: 77%;
         cursor: pointer;
+        background-color: white;
+        color: #131c56;
     }
 
     .TwoSection .Two-img-content .content-detail-three button p {
