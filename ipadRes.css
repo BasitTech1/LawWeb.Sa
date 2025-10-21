@@ -10,7 +10,7 @@
     }
 
     .header .nav-container .nav-details {
-        width: 52%;
+        width: 35%;
         gap: 14px;
     }
 
@@ -51,7 +51,7 @@
 
     .header .nav-buttons .right-btns li {
         list-style: none;
-        padding: 5px 5px 24px 4px;
+        padding: 10px 5px 12px 4px;
     }
 
     .header .nav-buttons .right-btns li a {
@@ -59,7 +59,7 @@
     }
 
     .header .nav-buttons .right-btns li:hover {
-        padding: 0px 5px 10px 0px;
+        padding: 5px 7px 12px 2px;
     }
 
     .Active {
@@ -100,7 +100,11 @@
 
     .header .nav-buttons .left-btn li {
         list-style: none;
-        padding: 3px 8px 20px 8px;
+        padding: 10px 5px 12px 4px;
+    }
+
+    .header .nav-buttons .left-btn li:hover{
+        padding: 10px 6px 12px 6px;
     }
 
     /* ---------------------------------container------------------ */
@@ -172,13 +176,15 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        gap: 15px;
+        gap: 11px;
         padding: 10px;
         border-radius: 50px;
         border: none;
         outline: none;
         font-weight: 600;
         cursor: pointer;
+        width: 100%;
+        font-size: 12px;
     }
 
     .hero-container .arrow-left {
@@ -208,7 +214,7 @@
     }
 
     .price .price-box1 p {
-        font-size: 12px;
+        font-size: 10px;
         text-align: right;
     }
 
@@ -224,7 +230,7 @@
     }
 
     .price .price-box2 p {
-        font-size: 13px;
+        font-size: 10px;
     }
 
     .price .price-box2 img {
@@ -239,7 +245,7 @@
     }
 
     .price .price-box3 p {
-        font-size: 12px;
+        font-size: 10px;
         text-align: right;
     }
 
@@ -255,7 +261,7 @@
     }
 
     .price .price-box4 p {
-        font-size: 12px;
+        font-size: 10px;
         text-align: right;
     }
 
@@ -266,7 +272,7 @@
 
     .TwoSection .Two-discussion {
         width: 100%;
-        top: -170px;
+        top: -17px;
     }
 
     .TwoSection .Two-discussion .Two-background {
@@ -337,15 +343,15 @@
         font-size: 16px;
         color: white;
         margin-top: 1%;
-        margin-bottom: 20px;
+        margin-bottom: 3px;
         text-align: center;
         line-height: 34px;
     }
 
     .TwoSection .Two-img-content .content-detail-three {
         text-align: right;
-        margin-top: 0%;
-        width: 80%;
+        margin-top: -42%;
+        width: 100%;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -356,7 +362,7 @@
     .TwoSection .Two-img-content .contact-points {
         display: grid;
         grid-template-columns: 2fr 2fr;
-
+        margin-top: 4px;
     }
 
     .TwoSection .Two-img-content .content-detail-three .point1,
