@@ -227,6 +227,11 @@
         align-items: center;
         justify-content: center;
         width: 100%;
+        margin-top: 16px;
+    }
+
+    .header .nav-container .Logo img {
+        width: 100%;
     }
 
     .hero-container .arrow-left {
@@ -258,7 +263,7 @@
         text-align: center;
         gap: 0px;
         width: 100%;
-        margin-top: 101%;
+        margin-top: 15%;
         flex-direction: column;
     }
 
@@ -344,7 +349,7 @@
     }
 
     .TwoSection .price {
-        gap: 10px;
+        gap: 16px;
         width: 100%;
         display: grid;
         grid-template-columns: 4fr 4fr;
@@ -355,7 +360,7 @@
 
     .TwoSection {
         width: 100%;
-        margin-top: 62px;
+        margin-top: 22%;
     }
 
     .price .price-box1 {
