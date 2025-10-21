@@ -420,6 +420,7 @@
 
     .TwoSection .Two-img-content .content-detail-three {
         width: 100%;
+        margin-top: 0px;
     }
 
     .TwoSection .Two-img-content .content-detail-three h2 {
@@ -455,7 +456,7 @@
 
     .TwoSection .Two-img-content .content-detail-two .img-details {
         padding: 20px;
-        top: 60%;
+        top: 0%;
         left: 13%;
         gap: 7px;
     }
@@ -499,7 +500,7 @@
     .TwoSection .Two-img-content .content-detail-three button {
         gap: 10px;
         padding: 2px;
-        margin-top: 150%;
+        margin-top: 0%;
         border-radius: 20px;
         left: 0;
         width: 77%;
