@@ -510,7 +510,7 @@
     }
 
     .TwoSection .Two-img-content .content-detail-three button p {
-        color: white;
+        color: #131c56;
         margin-top: 13px;
         font-weight: bold;
     }
@@ -520,7 +520,11 @@
     }
 
     .info-details {
-        top: 354%;
+        top: 390%;
+    }
+
+    .info-details .info-content {
+        gap: 4px;
     }
 
     .info-details .info-content h2 {
@@ -556,7 +560,7 @@
 
     .info-details .info-content .info-points {
         display: flex;
-        margin-right: 48%;
+        margin-right: 7%;
         align-items: end;
         justify-content: right;
         flex-direction: column;
@@ -582,36 +586,36 @@
     .info-details .info-content .info-points li .circle3,
     .info-details .info-content .info-points li .circle4 {
         width: 3.5%;
-        height: 8px;
+        height: 10px;
         background-color: #B0852D;
         border-radius: 50%;
     }
 
     .info-details .info-content .info-signature img {
-        width: 76%;
+        width: 54%;
     }
 
 
     .info-details .info-content .info-signature {
         gap: 0px;
-        margin-top: 36px;
+        margin-top: 17px;
         margin-left: 0;
-        flex-direction: column-reverse;
+        flex-direction: row;
     }
 
     .info-details .info-content .info-signature p {
-        font-size: 20px;
+        font-size: 14px;
         line-height: 15px;
     }
 
     .service-content {
-        top: 466%;
+        top: 500%;
         gap: 3px;
         padding: 14px;
     }
 
     .Service-box {
-        top: 514%;
+        top: 548%;
     }
 
     .service-content h4 {
@@ -643,6 +647,20 @@
 
     .service-content p {
         font-size: 12px;
+    }
+
+    .service-content .service-btn {
+        width: 67%;
+    }
+
+    .service-content .service-btn .btn2 {
+        padding: 11px;
+        font-size: 15px;
+    }
+
+    .service-content .service-btn .btn1{
+        padding: 13px;
+        font-size: 15px;
     }
 
     .service-content .service-btn p {
