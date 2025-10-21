@@ -1086,10 +1086,10 @@
     }
 
     .experiece {
-        top: 1228%;
+        top: 1234%;
         flex-direction: column;
         width: 100%;
-        padding: 44px;
+        padding: 30px;
         margin-top: 0px;
         display: flex;
     }
@@ -1136,7 +1136,7 @@
 
     .experiece .experiece-slider {
         justify-content: center;
-        gap: 12px;
+        gap: 10px;
         width: 100%;
         margin-top: 6%;
     }
