@@ -50,6 +50,10 @@ document.addEventListener('DOMContentLoaded', () => {
     const boxes = document.querySelector('.slider2');
     const button = document.querySelector('.btnHover');
 
+    if (!boxes || !button) {
+        return
+    }
+
     boxes.addEventListener('mouseover', () => {
         button.style.display = 'flex';
     });
@@ -63,6 +67,10 @@ document.addEventListener('DOMContentLoaded', () => {
 document.addEventListener('DOMContentLoaded', () => {
     const target = document.getElementById('target-hover3');
     const details3Hover = document.getElementById("details3Bg")
+
+    if (!target || !details3Hover) {
+        return
+    }
 
     target.addEventListener('mouseover', () => {
         details3Hover.style.display = 'flex'
@@ -95,19 +103,76 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 });
 
-
-// ------------------------------trainer-----------------------------
-
+// ----------------------------------trainer-slider-------------------------
 document.addEventListener('DOMContentLoaded', () => {
-    const trainerTwo = document.querySelector('.trainer-img2');
-    const imgTwoDetails = document.querySelector('.img2-details');
+    let scrollContainer = document.querySelector(".trainer-slider")
+    let backBtn = document.getElementById("backBtn")
+    let nextBtn = document.getElementById("nextBtn")
 
-    trainerTwo.addEventListener('mouseover', () => {
-        imgTwoDetails.style.opacity = '1';
-    });
+    if (!scrollContainer || !backBtn || !nextBtn) {
+        return
+    }
 
-    trainerTwo.addEventListener('mouseout', () => {
-        imgTwoDetails.style.opacity = '0';
-    });
+    scrollContainer.addEventListener("wheel", (evt) => {
+        evt.preventDefault();
+        scrollContainer.scrollLeft += evt.deltaY
+        scrollContainer.style.scrollBehavior = 'auto'
+    })
+
+    backBtn.addEventListener("click", () => {
+        scrollContainer.style.scrollBehavior = 'smooth'
+        scrollContainer.scrollLeft -= 900
+    })
+
+
+    nextBtn.addEventListener("click", () => {
+        scrollContainer.scrollLeft += 900
+        scrollContainer.style.scrollBehavior = 'smooth'
+    })
+})
+
+// -----------------------------------certicateslider-------------
+
+function LeftButtonClick() {
+    let scrollSlider = document.querySelector(".certificate-slider");
+    let btnLeft = document.getElementById("btnLeft");
+    scrollSlider.style.scrollBehavior = 'smooth';
+    scrollSlider.scrollLeft -= 900;
+}
+
+function rightButtonClick() {
+    let scrollSlider = document.querySelector(".certificate-slider");
+    let btnRight = document.getElementById("btnRight");
+    scrollSlider.style.scrollBehavior = 'smooth';
+    scrollSlider.scrollLeft += 900;
+}
+
+// DOMContentLoaded event listener
+document.addEventListener("DOMContentLoaded", () => {
+    let scrollSlider = document.querySelector(".certificate-slider");
+    let btnLeft = document.getElementById("btnLeft");
+    let btnRight = document.getElementById("btnRight");
+
+    if (scrollSlider && btnLeft && btnRight) {
+        scrollSlider.addEventListener("wheel", (evt) => {
+            evt.preventDefault();
+            scrollSlider.scrollLeft += evt.deltaY * 0.5; // Smoother scrolling
+            scrollSlider.style.scrollBehavior = 'auto';
+        });
+    }
 });
 
+// ------------------------------mobile-menu---------
+
+document.addEventListener('DOMContentLoaded', function () {
+    const menuToggle = document.getElementById("menu-toggle")
+    const menuBtns = document.getElementById("menu-btns")
+
+    menuToggle.addEventListener("click", function() {
+        if (menuBtns.style.display === "none" || menuBtns.style.display === "") {
+            menuBtns.style.display = "block";
+        } else {
+            menuBtns.style.display = "none";
+        }
+    });
+})
