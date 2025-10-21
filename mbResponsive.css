@@ -474,6 +474,8 @@
         align-items: end;
         justify-content: right;
         flex-direction: column;
+        gap: 14px;
+        margin-top: 40px;
     }
 
     .TwoSection .Two-img-content .content-detail-three .point1 i,
