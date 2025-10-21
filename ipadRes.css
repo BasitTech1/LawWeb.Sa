@@ -10,8 +10,8 @@
     }
 
     .header .nav-container .nav-details {
-        width: 35%;
-        gap: 14px;
+        width: 50%;
+        gap: 10px;
     }
 
     .header .nav-container .nav-details .call {
@@ -27,11 +27,11 @@
     }
 
     .header .nav-container .nav-details .Gmail {
-        gap: 11px;
+        gap: 7px;
     }
 
     .header .nav-container .nav-details .web {
-        gap: 4px;
+        gap: 1px;
     }
 
     .header .nav-container .Logo img {
