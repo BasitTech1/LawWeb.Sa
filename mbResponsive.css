@@ -1859,14 +1859,14 @@
     .Section-Three .section-data-img .blue {
         width: 62%;
         height: 38vh;
-        top: 25%;
+        top: 9%;
         left: 16%;
     }
 
     .Section-Three .section-data-img .yellow {
         width: 56%;
         height: 38vh;
-        top: 29%;
+        top: 13%;
         left: 19%;
     }
 
@@ -1974,7 +1974,7 @@
     }
 
     .certificate .certificate-details h2 {
-        font-size: 24px;
+        font-size: 23px;
         color: #1A2562;
     }
 
