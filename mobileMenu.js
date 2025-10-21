@@ -6,15 +6,15 @@ document.addEventListener('DOMContentLoaded', function () {
     const menuBtns = document.getElementById("menu-btns")
 
     menuToggle.addEventListener('click', function () {
-        menuBtns.style.opacity = '100'
-        menuCross.style.opacity = '1'
-        menuToggle.style.opacity = '0'
+        menuBtns.style.display = 'flex'
+        menuCross.style.display = 'flex'
+        menuToggle.style.display = 'none'
     })
 
     menuCross.addEventListener('click', function () {
-        menuBtns.style.opacity = '0'
-        menuCross.style.opacity = '0'
-        menuToggle.style.opacity = '1'
+        menuBtns.style.display = 'none'
+        menuCross.style.display = 'none'
+        menuToggle.style.display = 'flex'
         console.log('click')   
     })
 })
