@@ -658,7 +658,7 @@
         font-size: 15px;
     }
 
-    .service-content .service-btn .btn1{
+    .service-content .service-btn .btn1 {
         padding: 13px;
         font-size: 13px;
     }
@@ -884,8 +884,12 @@
 
     .institute {
         width: 100%;
-        top: 878%;
-        gap: 15px;
+        top: 890%;
+        gap: 0px;
+    }
+
+    .institute .institute-details {
+        width: 80%;
     }
 
     .institute .institute-details h4 {
@@ -919,7 +923,7 @@
 
     .institute .institute-logos {
         width: 100%;
-        gap: 31px;
+        gap: 10px;
         flex-direction: column;
     }
 
@@ -935,13 +939,13 @@
     .institute .institute-logos .institute1 p,
     .institute .institute-logos .institute2 p,
     .institute .institute-logos .institute3 p {
-        font-size: 18px;
+        font-size: 14px;
         font-weight: 600;
     }
 
     .form-details {
         position: absolute;
-        top: 1093%;
+        top: 1085%;
         width: 100%;
     }
 
@@ -1081,7 +1085,7 @@
     }
 
     .experiece {
-        top: 1225%;
+        top: 1228%;
         flex-direction: column;
         width: 100%;
         padding: 44px;
@@ -1126,18 +1130,19 @@
 
     .experiece .experiece-content p {
         font-size: 12px;
+        font-weight: 500;
     }
 
     .experiece .experiece-slider {
         justify-content: center;
-        gap: 19px;
+        gap: 12px;
         width: 100%;
         margin-top: 6%;
     }
 
     .experiece .experiece-slider .slider-1 {
         text-align: center;
-        padding: 11px 16px;
+        padding: 5px 4px;
         border-radius: 15px;
         border: 2px dashed #1a256268;
         display: flex;
