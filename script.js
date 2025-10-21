@@ -30,6 +30,22 @@ document.addEventListener('DOMContentLoaded', function () {
     setupToggle('sum5', 'subtract5', 'data-para5');
 });
 
+// ------------------------------mobile-menu---------
+
+document.addEventListener('DOMContentLoaded', function () {
+    const menuToggle = document.getElementById("menu-toggle")
+    const menuBtns = document.getElementById("menu-btns")
+
+    menuToggle.addEventListener("click", function () {
+        if (menuBtns.style.display === "none" || menuBtns.style.display === "") {
+            menuBtns.style.display = "block";
+            console.log("done")
+        } else {
+            menuBtns.style.display = "none";
+        }
+    });
+})
+
 // -------------------------------الممارسات----hoverbtn---------------
 
 const CLickList = document.getElementById('CLick-list')
@@ -161,18 +177,3 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     }
 });
-
-// ------------------------------mobile-menu---------
-
-document.addEventListener('DOMContentLoaded', function () {
-    const menuToggle = document.getElementById("menu-toggle")
-    const menuBtns = document.getElementById("menu-btns")
-
-    menuToggle.addEventListener("click", function() {
-        if (menuBtns.style.display === "none" || menuBtns.style.display === "") {
-            menuBtns.style.display = "block";
-        } else {
-            menuBtns.style.display = "none";
-        }
-    });
-})

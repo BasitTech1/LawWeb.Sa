@@ -135,7 +135,7 @@
     }
 
     .bg-section .mobile-menu #menu-btns {
-        opacity: 0;
+        display: none;
     }
 
     .bg-section .mobile-menu ul {
