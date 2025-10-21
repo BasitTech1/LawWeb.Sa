@@ -673,7 +673,7 @@
 
     .Service-box .service-slider {
         width: 100%;
-        margin-top: 0%;
+        margin-top: -11%;
         display: flex;
         gap: 17px;
         flex-direction: column;
@@ -685,8 +685,8 @@
 
     .Service-box .service-slider .slider4 {
         padding: 5px;
-        gap: 16px;
-        height: 35vh;
+        gap: 0px;
+        height: 29vh;
         border: 2px dashed #1a256251;
         box-shadow: 2px 2px 8px #282E69;
     }
@@ -694,7 +694,7 @@
     .Service-box .service-slider .slider3 {
         padding: 5px;
         gap: 22px;
-        height: 35vh;
+        height: 26vh;
         border: 2px dashed #1a256251;
         box-shadow: 2px 2px 8px #282E69;
     }
@@ -705,19 +705,21 @@
     }
 
     .Service-box .service-slider .slider3 p {
-        font-size: 22px;
+        font-size: 18px;
+        line-height: 40px;
     }
 
     .Service-box .service-slider .slider-img {
         width: 100%;
     }
 
-    .Service-box .service-slider .slider4 h4 {
+    .Service-box .service-slider .slider4 h2 {
         font-size: 16px;
     }
 
     .Service-box .service-slider .slider4 p {
-        font-size: 22px;
+        font-size: 18px;
+        line-height: 35px;
     }
 
     .Service-box .service-slider .slider2 h4 {
