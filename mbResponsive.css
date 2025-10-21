@@ -1314,7 +1314,7 @@
     }
 
     .hiring {
-        top: 1408%;
+        top: 1450%;
         display: flex;
     }
 
@@ -1347,21 +1347,21 @@
     }
 
     .hiring .hiring-details p {
-        font-size: 15px;
+        font-size: 11px;
         font-weight: 500;
     }
 
     .hiring .hiring-slider {
-        gap: 15px;
+        gap: 11px;
         width: 100%;
-        margin-top: 49px;
-        padding: 0% 14%;
+        margin-top: 11px;
+        padding: 0% 2%;
         flex-direction: column;
     }
 
     .hiring .hiring-slider .hiringSlider2 {
         padding: 11px;
-        width: 70%;
+        width: 80%;
         margin-bottom: 0%;
     }
 
@@ -1376,8 +1376,8 @@
     .hiring .hiring-slider .hiringSlider1 img,
     .hiring .hiring-slider .hiringSlider2 img,
     .hiring .hiring-slider .hiringSlider3 img {
-        margin-left: -5px;
-        width: 157px;
+        margin-left: 0px;
+        width: 100%;
     }
 
     .hiring .hiring-slider .hiringSlider2 button {
@@ -1388,7 +1388,7 @@
     }
 
     .hiring .hiring-slider .hiringSlider2 button p {
-        font-size: 8px;
+        font-size: 10px;
         font-weight: 700;
         margin-bottom: 0px;
     }
@@ -1403,11 +1403,11 @@
     }
 
     .hiring .hiring-slider .hiringSlider1 p {
-        font-size: 8px;
+        font-size: 10px;
     }
 
     .hiring .hiring-slider .hiringSlider1 {
-        width: 70%;
+        width: 80%;
         padding: 10px;
     }
 
@@ -1428,7 +1428,7 @@
 
     .hiring .hiring-slider .hiringSlider3 {
         padding: 7%;
-        width: 70%;
+        width: 80%;
     }
 
     .hiring .hiring-slider .hiringSlider3 h2 {
@@ -1437,7 +1437,7 @@
     }
 
     .hiring .hiring-slider .hiringSlider3 p {
-        font-size: 8px;
+        font-size: 10px;
     }
 
     .hiring .hiring-slider .hiringSlider3 i {
