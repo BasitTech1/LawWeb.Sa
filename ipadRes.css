@@ -608,7 +608,7 @@
 
     .Service-box .service-slider .slider1 p {
         font-size: 19px;
-        line-height: 42px;
+        line-height: 35px;
     }
 
     .Service-box .service-slider .slider2 {
@@ -622,7 +622,7 @@
         width: 96%;
         text-align: center;
         border: 4px dashed #1a256251;
-        height: 25h;
+        height: 25vh;
     }
 
     .Service-box .service-slider .slider3 p {
