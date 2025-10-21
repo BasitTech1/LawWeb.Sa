@@ -263,7 +263,7 @@
         text-align: center;
         gap: 0px;
         width: 100%;
-        margin-top: 30%;
+        margin-top: 35%;
         flex-direction: column;
     }
 
@@ -445,6 +445,7 @@
 
     .TwoSection .Two-img-content .content-detail-three h3 {
         font-size: 20px;
+        margin-top: 6%;
     }
 
     .TwoSection .Two-img-content .content-detail-two .img-details p {
