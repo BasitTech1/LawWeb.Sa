@@ -759,7 +759,7 @@
     }
 
     .Target {
-        top: 740%;
+        top: 735%;
     }
 
     .Target .Target-details {
@@ -884,12 +884,13 @@
 
     .institute {
         width: 100%;
-        top: 890%;
+        top: 896%;
         gap: 0px;
     }
 
     .institute .institute-details {
         width: 80%;
+        gap: 5px;
     }
 
     .institute .institute-details h4 {
