@@ -520,7 +520,7 @@
     }
 
     .info-details {
-        top: 390%;
+        top: 400%;
     }
 
     .info-details .info-content {
@@ -660,7 +660,7 @@
 
     .service-content .service-btn .btn1{
         padding: 13px;
-        font-size: 15px;
+        font-size: 13px;
     }
 
     .service-content .service-btn p {
