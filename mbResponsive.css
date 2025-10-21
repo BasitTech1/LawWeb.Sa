@@ -759,7 +759,7 @@
     }
 
     .Target {
-        top: 727%;
+        top: 740%;
     }
 
     .Target .Target-details {
@@ -821,6 +821,7 @@
         object-position: center;
         display: grid;
         grid-template-columns: 2fr 2fr;
+        margin-top: 0px;
     }
 
     .Target .Target-img .Target-details1 {
