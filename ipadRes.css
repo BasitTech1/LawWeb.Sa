@@ -2833,16 +2833,24 @@
         margin-top: 50px;
     }
 
+    .trainer7 .trainer-img .trainer-slider {
+        width: 60%;
+    }
+
     .trainer7 .trainer-img .trainer-img1,
     .trainer7 .trainer-img .trainer-img2,
     .trainer7 .trainer-img .trainer-img3 {
-        width: 30%;
+        width: 50%;
     }
 
     .trainer7 .trainer-img .trainer-img1 img,
     .trainer7 .trainer-img .trainer-img2 img,
     .trainer7 .trainer-img .trainer-img3 img {
         width: 100%;
+    }
+
+    .trainer7 .trainer-img .trainer-slider .trainer-img1 {
+        width: 50%;
     }
 
     .trainer7 .trainer-img .trainer-img1 p {
