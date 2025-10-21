@@ -1235,6 +1235,7 @@
 
     .trainer .trainer-img .trainer-slider {
         width: 60%;
+        margin-left: -9%;
     }
 
     .trainer .trainer-img .trainer-slider .trainer-img1 p {
@@ -1308,8 +1309,8 @@
 
     .trainer .trainer-img #backBtn,
     #nextBtn {
-        padding: 7px 13px;
-        font-size: 12px;
+        padding: 3px 9px;
+        font-size: 11px;
     }
 
     .hiring {
@@ -2889,11 +2890,11 @@
 
     .trainer7 .trainer-img #backBtn,
     #nextBtn {
-        font-size: 17px;
+        font-size: 12px;
         cursor: pointer;
         margin: 18px;
         background-color: #B1BBDA;
-        padding: 4px 12px;
+        padding: 3px 9px;
         border-radius: 50px;
         display: flex;
         align-items: center;
