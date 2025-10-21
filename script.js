@@ -177,3 +177,71 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     }
 });
+
+// ---------------------------------------من نحن-----
+// ------todo-----
+document.addEventListener("DOMContentLoaded", () => {
+    const cartPara2 = document.getElementById('cart-para2')
+    const cartUp2 = document.getElementById('cart-up2')
+    const cartDown2 = document.getElementById('cart-down2')
+
+    if (!cartPara2 || !cartUp2 || !cartDown2) {
+        return
+    }
+
+    cartDown2.addEventListener('click', () => {
+        cartPara2.style.display = 'flex'
+        cartUp2.style.display = 'flex'
+        cartDown2.style.display = "none"
+    })
+
+    cartUp2.addEventListener('click', () => {
+        cartPara2.style.display = 'none'
+        cartUp2.style.display = 'none'
+        cartDown2.style.display = "flex"
+    })
+})
+
+document.addEventListener("DOMContentLoaded", () => {
+    const cartPara3 = document.getElementById('cart-para3')
+    const cartUp3 = document.getElementById('cart-up3')
+    const cartDown3 = document.getElementById('cart-down3')
+
+    if (!cartPara3 || !cartUp3 || !cartDown3) {
+        return
+    }
+
+    cartDown3.addEventListener('click', () => {
+        cartPara3.style.display = 'flex'
+        cartUp3.style.display = 'flex'
+        cartDown3.style.display = "none"
+    })
+
+    cartUp3.addEventListener('click', () => {
+        cartPara3.style.display = 'none'
+        cartUp3.style.display = 'none'
+        cartDown3.style.display = "flex"
+    })
+})
+
+document.addEventListener("DOMContentLoaded", () => {
+    const cartPara4 = document.getElementById('cart-para4')
+    const cartUp4 = document.getElementById('cart-up4')
+    const cartDown4 = document.getElementById('cart-down4')
+
+    if (!cartPara4 || !cartUp4 || !cartDown4) {
+        return
+    }
+
+    cartDown4.addEventListener('click', () => {
+        cartPara4.style.display = 'flex'
+        cartUp4.style.display = 'flex'
+        cartDown4.style.display = "none"
+    })
+
+    cartUp4.addEventListener('click', () => {
+        cartPara4.style.display = 'none'
+        cartUp4.style.display = 'none'
+        cartDown4.style.display = "flex"
+    })
+})

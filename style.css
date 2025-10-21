@@ -3630,6 +3630,11 @@ header .nav-container .nav-details .web p {
     padding: 10px 20px;
     border-radius: 20px;
     cursor: pointer;
+    transition: all 0.3s ease-in;
+}
+
+.Team .Team-content-details .Team-details .Team-btns .btn2:hover {
+    background-color: #203a8e;
 }
 
 .Team .Team-content-details .Team-details .Team-btns .btn2 i {
@@ -4143,6 +4148,13 @@ header .nav-container .nav-details .web p {
     border-radius: 40px;
     cursor: pointer;
     color: #1A2562;
+    transition: all 0.3s ease-in;
+}
+
+.form-details1 .form-request .form-uplod .upload:hover,
+.form-details1 .form-request .form-uplod .voice:hover {
+    background-color: #013272;
+    color: white;
 }
 
 .form-details1 .form-request .form-uplod button img {
@@ -5170,6 +5182,13 @@ header .nav-container .nav-details .web p {
     border-radius: 40px;
     cursor: pointer;
     color: #1A2562;
+    transition: all 0.3s ease-in;
+}
+
+.form-details4 .form-request .form-uplod .upload:hover,
+.form-details4 .form-request .form-uplod .voice:hover {
+    background-color: #013272;
+    color: white;
 }
 
 .form-details4 .form-request .form-uplod button img {
@@ -6330,12 +6349,39 @@ header .nav-container .nav-details .web p {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 75%;
+    width: 100%;
     margin-top: 60px;
 }
 
-.trainer7 .trainer-img .trainer-img1 {
-    width: 40%;
+.trainer7 .trainer-slider div {
+    flex: none;
+}
+
+.trainer7 .trainer-img .trainer-slider {
+    overflow-x: scroll;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 84%;
+}
+
+.trainer7 .trainer-img #backBtn,
+#nextBtn {
+    font-size: 30px;
+    cursor: pointer;
+    margin: 40px;
+    background-color: #B1BBDA;
+    padding: 10px 26px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #1B2C62;
+    transition: all 0.3s ease;
+}
+
+.trainer7 .trainer-img .trainer-slider .trainer-img1 {
+    width: 35%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -6354,13 +6400,18 @@ header .nav-container .nav-details .web p {
 }
 
 .trainer7 .trainer-img .trainer-img2 {
-    width: 40%;
+    width: 35%;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     position: relative;
-    margin-bottom: 80px;
+}
+
+.trainer7 .trainer-img .trainer-img2 img,
+.trainer7 .trainer-img .trainer-img1 img,
+.trainer7 .trainer-img .trainer-img3 img{
+    width: 100%;
 }
 
 .trainer7 .trainer-img .trainer-img2 .img2-details {
@@ -6370,6 +6421,7 @@ header .nav-container .nav-details .web p {
     padding: 30px;
     width: 80%;
     top: 41.6%;
+    display: none;
 }
 
 .trainer7 .trainer-img .trainer-img2 .img2-details h2 {
@@ -6396,11 +6448,11 @@ header .nav-container .nav-details .web p {
 }
 
 .trainer7 .trainer-img .trainer-img3 {
-    width: 40%;
+    width: 35%;
 }
 
 .trainer7 .trainer-img .trainer-img3 {
-    width: 40%;
+    width: 35%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -7618,7 +7670,15 @@ header .nav-container .nav-details .web p {
     border-radius: 40px;
     cursor: pointer;
     color: #1A2562;
+    transition: all 0.3s ease-in;
 }
+
+.form-details8 .form-request .form-uplod .upload:hover,
+.form-details8 .form-request .form-uplod .voice:hover {
+    background-color: #013272;
+    color: white;
+}
+
 
 .form-details8 .form-request .form-uplod button img {
     width: 20px;
@@ -7757,7 +7817,15 @@ header .nav-container .nav-details .web p {
     border-radius: 40px;
     cursor: pointer;
     color: #1A2562;
+    transition: all 0.3s ease-in;
 }
+
+.form-details9 .form-request .form-uplod .upload:hover,
+.form-details9 .form-request .form-uplod .voice:hover {
+    background-color: #013272;
+    color: white;
+}
+
 
 .form-details9 .form-request .form-uplod button img {
     width: 20px;
