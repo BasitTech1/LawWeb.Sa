@@ -26,7 +26,7 @@
         width: 100%;
     }
 
-    .header .menu-cross{
+    .header .menu-cross {
         margin-top: 10px;
         font-size: 16px;
         color: #131c56;
@@ -895,7 +895,7 @@
 
     .institute {
         width: 100%;
-        top: 896%;
+        top: 906%;
         gap: 0px;
     }
 
@@ -911,6 +911,12 @@
     .institute .institute-details h2 {
         font-size: 29px;
         color: #1A2562;
+    }
+
+    .institute .institute-logos .institute1 img,
+    .institute .institute-logos .institute2 img,
+    .institute .institute-logos .institute3 img {
+        width: 70%;
     }
 
     .institute .institute-details .institute-lines .line1 {
@@ -935,7 +941,7 @@
 
     .institute .institute-logos {
         width: 100%;
-        gap: 10px;
+        gap: 3px;
         flex-direction: column;
     }
 
@@ -1372,7 +1378,7 @@
 
     .hiring .hiring-slider .hiringSlider2 {
         padding: 11px;
-        width: 80%;
+        width: 65%;
         margin-bottom: 0%;
     }
 
@@ -1418,7 +1424,7 @@
     }
 
     .hiring .hiring-slider .hiringSlider1 {
-        width: 80%;
+        width: 65%;
         padding: 10px;
     }
 
@@ -1439,7 +1445,7 @@
 
     .hiring .hiring-slider .hiringSlider3 {
         padding: 7%;
-        width: 80%;
+        width: 65%;
     }
 
     .hiring .hiring-slider .hiringSlider3 h2 {
@@ -1480,7 +1486,7 @@
     }
 
     .contact-Slider .contact-details h3 {
-        font-size: 11px;
+        font-size: 15px;
         text-shadow: 2px 2px 8px #131c56;
     }
 
@@ -1511,11 +1517,11 @@
     }
 
     .contact-Slider .contact-info .contact-call .Phone p {
-        font-size: 13px;
+        font-size: 15px;
     }
 
     .contact-Slider .contact-info .contact-call .Gamil p {
-        font-size: 13px;
+        font-size: 15px;
     }
 
     .contact-Slider .contact-info .contact-call .Gamil {
@@ -1531,7 +1537,7 @@
     }
 
     .contact-Slider .contact-info .location p {
-        font-size: 11px;
+        font-size: 15px;
         text-align: center;
         text-shadow: 2px 2px 8px #131c56;
     }
@@ -1664,7 +1670,7 @@
 
     .bg-section {
         background-color: #131c56;
-        height: 150vh;
+        height: 100vh;
     }
 
     .bg-section .nav-buttons {
@@ -1731,7 +1737,7 @@
     }
 
     .bg-section .bg-details {
-        top: 17%;
+        top: 14%;
         left: 0%;
         gap: 5px;
         width: 100%;
@@ -2079,7 +2085,7 @@
 
     .Team .team-bg img {
         width: 100%;
-        height: 82vh;
+        height: 70vh;
         object-fit: cover;
     }
 
@@ -2147,7 +2153,7 @@
     .contact-data-section .contact-image img {
         width: 100%;
         opacity: 0.9;
-        height: 81vh;
+        height: 62vh;
         object-fit: cover;
     }
 
@@ -2229,7 +2235,7 @@
     }
 
     .form-details1 {
-        top: 88%;
+        top: 87%;
         left: -4%;
     }
 
@@ -2272,7 +2278,7 @@
     }
 
     .footer2 {
-        margin-top: 32%;
+        margin-top: 20%;
     }
 
     .footer2 .footer-details {
@@ -3381,5 +3387,11 @@
         margin-left: 39%;
         font-size: 8px;
         font-weight: 600;
+    }
+
+    .Team .Team-content-details .Team-points .points1 {
+        display: flex;
+        align-items: end;
+        justify-content: right;
     }
 }
