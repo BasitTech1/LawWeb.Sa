@@ -2610,14 +2610,14 @@
         width: 100%;
         padding: 40px;
         gap: 77px;
-        margin-top: -181%;
+        margin-top: -138%;
         flex-direction: column-reverse;
         position: absolute;
-        z-index: 1000;
+        z-index: 999;
     }
 
     .roles .roles-details {
-        width: 80%;
+        width: 100%;
     }
 
     .roles .roles-details h2 {
@@ -2629,6 +2629,10 @@
     .roles .roles-details .roles-lines {
         align-items: center;
         justify-content: center;
+    }
+
+    .roles-data .roles-img .roles-bg img {
+        width: 87%;
     }
 
     .roles .roles-details p {
@@ -2646,7 +2650,7 @@
     }
 
     .roles-data {
-        margin-top: 22%;
+        margin-top: 5%;
         flex-direction: column-reverse;
         justify-content: center;
     }
@@ -2687,6 +2691,11 @@
         width: 100%;
     }
 
+    .packages8 .packages-headline h2 {
+        font-size: 40px;
+        font-weight: bold;
+    }
+
     .packages8 .packages-data {
         width: 95%;
         display: flex;
@@ -2702,12 +2711,47 @@
         color: white;
     }
 
+    .packages8 .packages-data .package-details .package1 h2,
+    .packages8 .packages-data .package-details1 .package1 h2 {
+        font-size: 28px;
+    }
+
+    .packages8 .packages-data .package-details .package1 h2 span,
+    .packages8 .packages-data .package-details1 .package1 h2 span {
+        font-size: 14px;
+    }
+
+    .packages8 .packages-data .package-details .package1 .package-points2,
+    .packages8 .packages-data .package-details1 .package1 .package-points2 {
+        gap: 0px;
+    }
+
+    .packages8 .packages-data .package-details .btn span,
+    .packages8 .packages-data .package-details1 .btn span {
+        font-size: 10px;
+    }
+
+    .packages8 .packages-data .package-details .btn p,
+    .packages8 .packages-data .package-details1 .btn p {
+        font-size: 10px;
+    }
+
+    .packages8 .packages-data .package-details .package1 .package-points2 .points .point1 p,
+    .packages8 .packages-data .package-details1 .package1 .package-points2 .points .point1 p {
+        font-size: 10px;
+    }
+
+    .roles-data .roles-content {
+        gap: 7px;
+        width: 80%;
+    }
+
     .contact-data-section {
         margin-top: 0%;
     }
 
     .form-details4 {
-        top: 89.6%;
+        top: 88%;
         z-index: 10;
         left: 0%;
         width: 100%;
@@ -2721,7 +2765,11 @@
     }
 
     .form-details4 .form-img .form-top input {
-        padding: 10px 20px;
+        padding: 7px 20px;
+    }
+
+    .form-details4 .form-img input {
+        padding: 7px 12px;
     }
 
     .form-details4 .form-request .first-request {
@@ -2873,7 +2921,7 @@
     }
 
     .trainer7 {
-        margin-top: 150%;
+        margin-top: 117%;
     }
 
     .trainer7 .trainer-content {
@@ -2907,7 +2955,7 @@
 
     .trainer7 .trainer-img #backBtn,
     #nextBtn {
-        font-size: 12px;
+        font-size: 27px;
         cursor: pointer;
         margin: 18px;
         background-color: #B1BBDA;
@@ -2930,7 +2978,7 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        width: 50%;
+        width: 65%;
     }
 
     .trainer7 .trainer-img div {
@@ -3048,6 +3096,10 @@
         margin-top: 0%;
     }
 
+    .institute7 .institute-details {
+        width: 86%;
+    }
+
     .institute7 .institute-logos .institute1 p,
     .institute7 .institute-logos .institute2 p,
     .institute7 .institute-logos .institute3 p {
@@ -3136,10 +3188,14 @@
     .Law-data-btn {
         padding: 35px;
         gap: 40px;
-        margin-top: -181%;
+        margin-top: -120%;
         flex-direction: column-reverse;
         z-index: 100;
         position: relative;
+    }
+
+    .law-Data-Upload {
+        margin-top: 0%;
     }
 
     .Law-data-btn .law-para h2 {
