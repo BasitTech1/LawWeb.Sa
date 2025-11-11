@@ -2362,12 +2362,13 @@
 
     .bg-section .page8 {
         gap: 15px;
+        top: 13%;
     }
 
     .form-details3 {
         width: 100%;
         gap: 30px;
-        margin-top: -68%;
+        margin-top: -54%;
     }
 
 
@@ -2394,7 +2395,7 @@
 
     .form-details3 .form-heading {
         gap: 10px;
-        top: -65%;
+        top: -51%;
         width: 75%;
     }
 
@@ -2739,6 +2740,10 @@
     .packages8 .packages-data .package-details .package1 .package-points2 .points .point1 p,
     .packages8 .packages-data .package-details1 .package1 .package-points2 .points .point1 p {
         font-size: 10px;
+    }
+
+    .todo-section .todo-1 .point1 {
+        width: 76%;
     }
 
     .roles-data .roles-content {
@@ -3409,7 +3414,7 @@
     }
 
     .form-details9 {
-        top: 75%;
+        top: 75.4%;
     }
 
     .form-details9 .form-img {
